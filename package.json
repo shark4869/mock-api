@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "json-server": "^0.17.3"
+  },
+  "name": "mock-api",
+  "version": "1.0.0",
+  "description": "mock api fo house cleaning web",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "uyen",
+  "license": "ISC"
+}
