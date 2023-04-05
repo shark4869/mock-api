@@ -23,7 +23,7 @@ server.post('/api/login', (req, res) => {
   if (account) {
     res.json({ message: 'Đăng nhập thành công', account });
   } else {
-    res.status(401).json({ error: 'Username hoặc mật khẩu không đúng' });
+    res.status(401).json({ error: 'Tên đăng nhập hoặc mật khẩu không đúng!' });
   }
 });
 

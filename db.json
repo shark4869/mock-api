@@ -1,56 +1,71 @@
 {
   "roles": [
-    { "id": 1, "name": "admin"},
-    { "id": 2, "name": "Khách hàng"},
-    { "id": 3, "name": "Cộng tác viên"}
+    {
+      "id": 1,
+      "name": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Khách hàng"
+    },
+    {
+      "id": 3,
+      "name": "Cộng tác viên"
+    }
   ],
   "users": [
-    { "id": 1, 
-    "firstName": "Vô", 
-    "lastName": "Diện" ,
-    "phone": "0855387362",
-    "age": "20",
-    "gender": "Nữ",
-    "address": "Buôn Ma Thuột, Đăk Lăk",
-    "avatar": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fHdvbWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-    "accountId": 1
+    {
+      "id": 1,
+      "firstName": "Vô",
+      "lastName": "Diện",
+      "phone": "0855387362",
+      "age": "20",
+      "gender": "Nữ",
+      "address": "Buôn Ma Thuột, Đăk Lăk",
+      "avatar": "https://images.unsplash.com/photo-1440589473619-3cde28941638?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGJlYXV0aWZ1bCUyMGdpcmxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "accountId": 1
     },
-    { "id": 2, 
-    "firstName": "Hồ", 
-    "lastName": "Phương" ,
-    "phone": "0775536285",
-    "age": "20",
-    "gender": "Nam",
-    "address": "Quy Nhơn, Bình Định",
-    "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
-    "accountId": 2
+    {
+      "id": 2,
+      "firstName": "Hồ",
+      "lastName": "Phương",
+      "phone": "0775536285",
+      "age": "20",
+      "gender": "Nam",
+      "address": "Quy Nhơn, Bình Định",
+      "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+      "accountId": 2
     },
-    { "id": 3, 
-    "firstName": "Hoàng", 
-    "lastName": "Tùng" ,
-    "phone": "0874653872",
-    "age": "20",
-    "gender": "Nam",
-    "address": "Quy Nhơn, Bình Định",
-    "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-    "accountId": 3
+    {
+      "id": 3,
+      "firstName": "Hoàng",
+      "lastName": "Tùng",
+      "phone": "0874653872",
+      "age": "20",
+      "gender": "Nam",
+      "address": "Quy Nhơn, Bình Định",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "accountId": 3
     }
   ],
   "accounts": [
-    { "username": "vodien" ,
-    "password": "12345",
-    "roleId": 2,
-    "userId": 1
-  },
-  { "username": "hophuong" ,
-    "password": "12345",
-    "roleId": 3,
-    "userId": 2
-  },
-  { "username": "hoangtung" ,
-    "password": "12345",
-    "roleId": 2,
-    "userId": 3
-  }
+    {
+      "username": "vodien",
+      "password": "123456",
+      "roleId": 2,
+      "userId": 1
+    },
+    {
+      "username": "hophuong",
+      "password": "123456",
+      "roleId": 3,
+      "userId": 2
+    },
+    {
+      "username": "hoangtung",
+      "password": "123456",
+      "roleId": 2,
+      "userId": 3
+    }
   ]
 }
