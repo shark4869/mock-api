@@ -64,8 +64,101 @@
     {
       "username": "hoangtung",
       "password": "123456",
-      "roleId": 2,
+      "roleId": 3,
       "userId": 3
     }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Dọn dẹp"
+    },
+    {
+      "id": 2,
+      "name": "Nấu ăn"
+    },
+    {
+      "id": 3,
+      "name": "Đi chợ"
+    },
+     {
+      "id": 4,
+      "name": "Giặt ủi"
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "userId": 2,
+      "date": "01/04/2023",
+      "categoryId": 1,
+      "like": 0,
+      "title": "Cách dọn dẹp nhà cửa nhanh và hiệu quả",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRW4VE73T-1vTfFkLOtIrReYQKcYtnTgp-wQ&usqp=CAU"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "date": "01/04/2023",
+      "categoryId": 1,
+      "like": 0,
+      "title": "10 mẹo vặt giúp bạn dọn dẹp nhà cửa",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_cKYW6TaG0Xt3tHc4vA3JkIncGPagz2GH6A&usqp=CAU"
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "date": "01/04/2023",
+      "categoryId": 2,
+      "like": 0,
+      "title": "Món ngon đơn giản dễ làm",
+      "image": "https://cdn.beptruong.edu.vn/wp-content/uploads/2021/03/mon-an-co-nhieu-duong-chat.jpg"
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "date": "01/04/2023",
+      "categoryId": 2,
+      "like": 0,
+      "title": "12 mẹo vặt nấu ăn đơn giản",
+      "image": "https://www.nhahangquangon.com/wp-content/uploads/2013/11/nguyen-lieu-cho-viec-nau-an.jpg"
+    },
+    {
+      "id": 5,
+      "userId": 3,
+      "date": "01/04/2023",
+      "categoryId": 3,
+      "like": 0,
+      "title": "Mẹo lựa chọn thực phẩm tươi ngon khi đi chợ",
+      "image": "https://afamilycdn.com/150157425591193600/2020/7/15/5-cach-chon-rau-cu-qua-tuoi-ngon-3-1594788386816674000747.jpg"
+    },
+    {
+      "id": 6,
+      "userId": 3,
+      "date": "01/04/2023",
+      "categoryId": 3,
+      "like": 0,
+      "title": "Xử lý hải sản trước khi bảo quản và cách bảo quản hải sản tươi sống",
+      "image": "https://cdn.tgdd.vn/2021/10/CookDish/xu-ly-hai-san-truoc-khi-bao-quan-va-cach-bao-quan-hai-san-avt-1200x676.jpg"
+    },
+    {
+      "id": 7,
+      "userId": 3,
+      "date": "01/04/2023",
+      "categoryId": 4,
+      "like": 0,
+      "title": "Cách khử mùi hôi giày trong 3 nốt nhạc",
+      "image": "https://activatedcarbon.vn/pic/news/images/637090902477003651.jpg"
+    },
+    {
+      "id": 8,
+      "userId": 3,
+      "date": "01/04/2023",
+      "categoryId": 4,
+      "like": 0,
+      "title": "9 cách tẩy vết mốc quần áo đơn giản, hiệu quả",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI-rYAzEaYZTbyL3A9W2zlD4qbKvx8UyEll-ivibOlKItlmWjAshxufee83tZ80r64Blk&usqp=CAU"
+    }
+
   ]
 }
