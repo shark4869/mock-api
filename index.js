@@ -26,7 +26,24 @@ server.post('/api/login', (req, res) => {
     res.status(401).json({ error: 'Tên đăng nhập hoặc mật khẩu không đúng!' });
   }
 });
+server.patch('/api/articles/:id/like', (req, res) => {
+  const id = req.params.id;
+  const article = router.db.get('articles').find({ id: parseInt(id) }).value();
 
+  if (!article) {
+    res.status(404).json({ error: 'Article not found' });
+  } else {
+    const liked = !article.liked;
+    let likes = article.likes;
+    if (liked) {
+      likes += 1;
+    } else {
+      likes -= 1;
+    }
+    router.db.get('articles').find({ id: parseInt(id) }).assign({ liked, likes }).write();
+    res.json({ liked, likes });
+  }
+});
 
 // To handle POST, PUT and PATCH you need to use a body-parser
 // You can use the one used by JSON Server

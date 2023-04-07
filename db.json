@@ -81,7 +81,7 @@
       "id": 3,
       "name": "Đi chợ"
     },
-     {
+    {
       "id": 4,
       "name": "Giặt ủi"
     }
@@ -90,75 +90,338 @@
     {
       "id": 1,
       "userId": 2,
-      "date": "01/04/2023",
+      "createdAt": "01/04/2023",
       "categoryId": 1,
-      "like": 0,
+      "likes": 4,
       "title": "Cách dọn dẹp nhà cửa nhanh và hiệu quả",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRW4VE73T-1vTfFkLOtIrReYQKcYtnTgp-wQ&usqp=CAU"
+      "image": "https://dichvuvesinhnha.net/wp-content/uploads/2021/12/lau-don-nha-cua-dung-cach-2.jpg",
+      "contents": [
+        {
+          "subTitle": "Phân loại nhóm đồ đạc cần dọn dẹp",
+          "content": "Để việc dọn dẹp trở nên dễ dàng và nhanh chóng, việc đầu tiên bạn cần làm là phân loại các nhóm đồ đạc cần dọn dẹp như: quần áo, đồ làm bếp, sách vở, đồ chơi... Điều này vô cùng cần thiết, đặc biệt là đối với những gia đình có nhiều thành viên. Việc dọn dẹp hết tất cả quần áo trong các phòng rồi tiếp đến dọn các nhóm đồ đạc khác giúp bạn hoàn thành công việc nhanh hơn.Sau dọn dẹp, bạn hãy sắp xếp chúng vào những thùng hay hộp caton cho gọn. Việc tiếp theo bạn chỉ cần cất giữ chúng gọn gàng là xong",
+          "imageUrl": "https://cdn.tgdd.vn/Files/2020/01/10/1230884/7-cach-don-dep-nha-cua-thong-minh-sach-se-nhu-nguoi-nhat-ban-nen-biet-.jpg"
+        },
+        {
+          "subTitle": "Có thứ tự ưu tiên dọn dẹp ngay từ đầu",
+          "content": "Thứ tự dọn dẹp là một trong những lưu ý mà người Nhật thường hay nhắc đến. Việc sắp xếp thứ tự dọn dẹp không chỉ khiến việc dọn dẹp trở nên logic hơn mà còn giúp bạn không phải hoang mang không biết trước một đống công việc. Hơn hết việc sắp xếp thứ tự ưu tiên còn giúp bạn hoàn thành được các công việc tốt nhất mà không bỏ sót việc nào. Thứ tự dọn dẹp ưu tiên theo người Nhật đó là bắt đầu từ đồ mặc (quần áo, túi, giày dép, mũ); tiếp đến là giá sách, các loại giấy tờ; sau đó là các thứ đồ nhỏ khác theo sự lựa chọn của từng người và cuối cùng là sắp xếp đồ lưu niệm",
+          "imageUrl": "https://cdn.tgdd.vn/Files/2020/01/10/1230884/7-cach-don-dep-nha-cua-thong-minh-sach-se-nhu-nguoi-nhat-ban-nen-biet--1.jpg"
+        },
+        {
+          "subTitle": "Cố định vị trí đồ vật",
+          "content": "Người Nhật quan niệm rằng, việc sắp xếp cố định vị trí cho đồ vật sẽ giúp cho việc dọn dẹp trở nên nhanh chóng hơn. Điều này cũng dễ hiểu, bởi khi cố định vị trí cho đồ vật thì khi cần tìm hay cần đặt món đồ đó, bạn có thể biết ngay vị trí cần tìm hay đặt mà không cần phải mất công suy nghĩ vị trí của chúng.",
+          "imageUrl": "https://cdn.tgdd.vn/Files/2020/01/10/1230884/7-cach-don-dep-nha-cua-thong-minh-sach-se-nhu-nguoi-nhat-ban-nen-biet--2.jpg"
+        },
+        {
+          "subTitle": "Sắp xếp đồ đạc theo chiều dọc",
+          "content": "Với những món đồ cùng loại, nên xếp theo nguyên tắc chiều dọc. Theo tác giả Mari Kondo đề cập, việc làm này giúp bạn luôn quản lý được những thứ mình đang có, tăng tuổi thọ đồ dùng và dễ dàng vệ sinh hơn.",
+          "imageUrl": "https://cdn.tgdd.vn/Files/2020/01/10/1230884/7-cach-don-dep-nha-cua-thong-minh-sach-se-nhu-nguoi-nhat-ban-nen-biet--5.jpg"
+        },
+        {
+          "subTitle": "Dọn nhà với quy tắc 15 phút",
+          "content": "Có 3 căn phòng bạn thường lui tới thường xuyên là phòng khách, phòng ngủ và phòng phòng bếp. Theo quy tắc 15 phút, bạn phải dành ra 5 phút để dọn dẹp mỗi căn phòng này và phải thực hiện mỗi ngày.Phương pháp này giúp tiết kiệm thời gian dọn nhà, nhưng không vì thế mà kém phần sạch sẽ. Khi dọn dẹp mỗi ngày, căn nhà bạn sẽ tươm tất hơn và bạn cũng không phải tốn quá nhiều công sức, dễ sinh ra chán nản.",
+          "imageUrl": "https://cdn.tgdd.vn/Files/2020/01/10/1230884/7-cach-don-dep-nha-cua-thong-minh-sach-se-nhu-nguo.jpg"
+        },
+        {
+          "subTitle": "Dọn sạch khu vực bếp sau mỗi ngày",
+          "content": "Thói quen dọn sạch khu vực bếp sau mỗi ngày sẽ giúp căn bếp luôn sạch sẽ, tạo không gian dễ chịu khi nấu ăn vào các bữa sau. Bên cạnh đó, sau khi nấu ăn xong, bạn hãy dành thời gian để lau chùi và làm sạch không gian bếp chứ không nên để đến cuối ngày.Hơn nữa, sau khi nấu xong, bạn cũng nên rửa sạch đồ dùng sơ chế trước khi ngồi vào bàn thưởng thức bữa ăn. Điều này giúp không gian nhẹ nhàng, sạch sẽ và tạo cảm giác ngon miệng hơn.",
+          "imageUrl": "https://cdn.tgdd.vn/Files/2020/01/10/1230884/7-cach-don-dep-nha-cua-thong-minh-sach-se-nhu-nguo-2.jpg"
+        }
+      ],
+      "liked": false
     },
     {
       "id": 2,
       "userId": 2,
-      "date": "01/04/2023",
+      "createdAt": "01/04/2023",
       "categoryId": 1,
-      "like": 0,
+      "likes": 0,
       "title": "10 mẹo vặt giúp bạn dọn dẹp nhà cửa",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_cKYW6TaG0Xt3tHc4vA3JkIncGPagz2GH6A&usqp=CAU"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_cKYW6TaG0Xt3tHc4vA3JkIncGPagz2GH6A&usqp=CAU",
+      "contents": [
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": "g"
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        }
+      ],
+      "liked": false
     },
     {
       "id": 3,
       "userId": 2,
-      "date": "01/04/2023",
+      "createdAt": "01/04/2023",
       "categoryId": 2,
-      "like": 0,
+      "likes": 0,
       "title": "Món ngon đơn giản dễ làm",
-      "image": "https://cdn.beptruong.edu.vn/wp-content/uploads/2021/03/mon-an-co-nhieu-duong-chat.jpg"
+      "image": "https://cdn.beptruong.edu.vn/wp-content/uploads/2021/03/mon-an-co-nhieu-duong-chat.jpg",
+      "contents": [
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": "g"
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        }
+      ],
+      "liked": false
     },
     {
       "id": 4,
       "userId": 2,
-      "date": "01/04/2023",
+      "createdAt": "01/04/2023",
       "categoryId": 2,
-      "like": 0,
+      "likes": 0,
       "title": "12 mẹo vặt nấu ăn đơn giản",
-      "image": "https://www.nhahangquangon.com/wp-content/uploads/2013/11/nguyen-lieu-cho-viec-nau-an.jpg"
+      "image": "https://www.nhahangquangon.com/wp-content/uploads/2013/11/nguyen-lieu-cho-viec-nau-an.jpg",
+      "contents": [
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": "g"
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        }
+      ],
+      "liked": false
     },
     {
       "id": 5,
       "userId": 3,
-      "date": "01/04/2023",
+      "createdAt": "01/04/2023",
       "categoryId": 3,
-      "like": 0,
+      "likes": 0,
       "title": "Mẹo lựa chọn thực phẩm tươi ngon khi đi chợ",
-      "image": "https://afamilycdn.com/150157425591193600/2020/7/15/5-cach-chon-rau-cu-qua-tuoi-ngon-3-1594788386816674000747.jpg"
+      "image": "https://afamilycdn.com/150157425591193600/2020/7/15/5-cach-chon-rau-cu-qua-tuoi-ngon-3-1594788386816674000747.jpg",
+      "contents": [
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": "g"
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        }
+      ],
+      "liked": false
     },
     {
       "id": 6,
       "userId": 3,
-      "date": "01/04/2023",
+      "createdAt": "01/04/2023",
       "categoryId": 3,
-      "like": 0,
+      "likes": 0,
       "title": "Xử lý hải sản trước khi bảo quản và cách bảo quản hải sản tươi sống",
-      "image": "https://cdn.tgdd.vn/2021/10/CookDish/xu-ly-hai-san-truoc-khi-bao-quan-va-cach-bao-quan-hai-san-avt-1200x676.jpg"
+      "image": "https://cdn.tgdd.vn/2021/10/CookDish/xu-ly-hai-san-truoc-khi-bao-quan-va-cach-bao-quan-hai-san-avt-1200x676.jpg",
+      "contents": [
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": "g"
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        }
+      ],
+      "liked": false
     },
     {
       "id": 7,
       "userId": 3,
-      "date": "01/04/2023",
+      "createdAt": "01/04/2023",
       "categoryId": 4,
-      "like": 0,
+      "likes": 0,
       "title": "Cách khử mùi hôi giày trong 3 nốt nhạc",
-      "image": "https://activatedcarbon.vn/pic/news/images/637090902477003651.jpg"
+      "image": "https://activatedcarbon.vn/pic/news/images/637090902477003651.jpg",
+      "contents": [
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": "g"
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        }
+      ],
+      "liked": false
     },
     {
       "id": 8,
       "userId": 3,
-      "date": "01/04/2023",
+      "createdAt": "01/04/2023",
       "categoryId": 4,
-      "like": 0,
+      "likes": 0,
       "title": "9 cách tẩy vết mốc quần áo đơn giản, hiệu quả",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI-rYAzEaYZTbyL3A9W2zlD4qbKvx8UyEll-ivibOlKItlmWjAshxufee83tZ80r64Blk&usqp=CAU"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI-rYAzEaYZTbyL3A9W2zlD4qbKvx8UyEll-ivibOlKItlmWjAshxufee83tZ80r64Blk&usqp=CAU",
+      "contents": [
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": "g"
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        },
+        {
+          "subTitle": "",
+          "content": "",
+          "imageUrl": ""
+        }
+      ],
+      "liked": false
     }
-
   ]
 }
