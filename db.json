@@ -1,4 +1,30 @@
 {
+  "carousels": [
+    {
+      "id": 1,
+      "name": "Giúp việc nhà theo giờ",
+      "description": "Là dịch vụ đầu tiên House Cleaning triển khai. Giờ đây công việc dọn dẹp không còn là nỗi bận tâm, bạn sẽ có nhiều thời gian nghỉ ngơi và tận hưởng cuộc sống.",
+      "image": "https://static.chotot.com/storage/chotot-kinhnghiem/c2c/2019/11/dang-ky-lam-giup-viec-theo-gio-1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Tổng vệ sinh",
+      "description": "Xử lý chuyên sâu mọi vết bẩn trong căn nhà của bạn với từ 2 cộng tác viên giúp việc nhà trở lên.",
+      "image": "https://1.bp.blogspot.com/-F2ZJVD5cg8M/WirBugKj80I/AAAAAAAAAK0/WVjRbPVNR34ZFQLFmIP_5t7shm1TOujigCPcBGAYYCw/s640/tong%2Bve%2Bsinh%2Bnha%2Bdon%2Btet%2Bquan%2B2%2Bd.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Đi chợ",
+      "description": "Việc mua sắm thực phẩm và đồ dùng gia đình trở nên tiện lợi hơn bao giờ hết. Giao hàng tận nơi chỉ sau 1h.",
+      "image": "https://cdnmedia.baotintuc.vn/Upload/pTMF1jgWpbjY1m8G1xWUsg/files/2021/08/dichodumdan/dicho10.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Nấu ăn gia đình",
+      "description": "Mang đến bữa ăn gia đình ấm áp, tròn vị mỗi khi cuộc sống quá bận rộn.",
+      "image": "https://vinmec-prod.s3.amazonaws.com/images/20200522_154627_093429_nhung-loi-ich-cua-vie.max-800x800.jpg"
+    }
+  ],
   "roles": [
     {
       "id": 1,
@@ -86,342 +112,189 @@
       "name": "Giặt ủi"
     }
   ],
-  "articles": [
+  "services": [
     {
       "id": 1,
       "userId": 2,
-      "createdAt": "01/04/2023",
-      "categoryId": 1,
-      "likes": 4,
-      "title": "Cách dọn dẹp nhà cửa nhanh và hiệu quả",
-      "image": "https://dichvuvesinhnha.net/wp-content/uploads/2021/12/lau-don-nha-cua-dung-cach-2.jpg",
-      "contents": [
-        {
-          "subTitle": "Phân loại nhóm đồ đạc cần dọn dẹp",
-          "content": "Để việc dọn dẹp trở nên dễ dàng và nhanh chóng, việc đầu tiên bạn cần làm là phân loại các nhóm đồ đạc cần dọn dẹp như: quần áo, đồ làm bếp, sách vở, đồ chơi... Điều này vô cùng cần thiết, đặc biệt là đối với những gia đình có nhiều thành viên. Việc dọn dẹp hết tất cả quần áo trong các phòng rồi tiếp đến dọn các nhóm đồ đạc khác giúp bạn hoàn thành công việc nhanh hơn.Sau dọn dẹp, bạn hãy sắp xếp chúng vào những thùng hay hộp caton cho gọn. Việc tiếp theo bạn chỉ cần cất giữ chúng gọn gàng là xong",
-          "imageUrl": "https://cdn.tgdd.vn/Files/2020/01/10/1230884/7-cach-don-dep-nha-cua-thong-minh-sach-se-nhu-nguoi-nhat-ban-nen-biet-.jpg"
-        },
-        {
-          "subTitle": "Có thứ tự ưu tiên dọn dẹp ngay từ đầu",
-          "content": "Thứ tự dọn dẹp là một trong những lưu ý mà người Nhật thường hay nhắc đến. Việc sắp xếp thứ tự dọn dẹp không chỉ khiến việc dọn dẹp trở nên logic hơn mà còn giúp bạn không phải hoang mang không biết trước một đống công việc. Hơn hết việc sắp xếp thứ tự ưu tiên còn giúp bạn hoàn thành được các công việc tốt nhất mà không bỏ sót việc nào. Thứ tự dọn dẹp ưu tiên theo người Nhật đó là bắt đầu từ đồ mặc (quần áo, túi, giày dép, mũ); tiếp đến là giá sách, các loại giấy tờ; sau đó là các thứ đồ nhỏ khác theo sự lựa chọn của từng người và cuối cùng là sắp xếp đồ lưu niệm",
-          "imageUrl": "https://cdn.tgdd.vn/Files/2020/01/10/1230884/7-cach-don-dep-nha-cua-thong-minh-sach-se-nhu-nguoi-nhat-ban-nen-biet--1.jpg"
-        },
-        {
-          "subTitle": "Cố định vị trí đồ vật",
-          "content": "Người Nhật quan niệm rằng, việc sắp xếp cố định vị trí cho đồ vật sẽ giúp cho việc dọn dẹp trở nên nhanh chóng hơn. Điều này cũng dễ hiểu, bởi khi cố định vị trí cho đồ vật thì khi cần tìm hay cần đặt món đồ đó, bạn có thể biết ngay vị trí cần tìm hay đặt mà không cần phải mất công suy nghĩ vị trí của chúng.",
-          "imageUrl": "https://cdn.tgdd.vn/Files/2020/01/10/1230884/7-cach-don-dep-nha-cua-thong-minh-sach-se-nhu-nguoi-nhat-ban-nen-biet--2.jpg"
-        },
-        {
-          "subTitle": "Sắp xếp đồ đạc theo chiều dọc",
-          "content": "Với những món đồ cùng loại, nên xếp theo nguyên tắc chiều dọc. Theo tác giả Mari Kondo đề cập, việc làm này giúp bạn luôn quản lý được những thứ mình đang có, tăng tuổi thọ đồ dùng và dễ dàng vệ sinh hơn.",
-          "imageUrl": "https://cdn.tgdd.vn/Files/2020/01/10/1230884/7-cach-don-dep-nha-cua-thong-minh-sach-se-nhu-nguoi-nhat-ban-nen-biet--5.jpg"
-        },
-        {
-          "subTitle": "Dọn nhà với quy tắc 15 phút",
-          "content": "Có 3 căn phòng bạn thường lui tới thường xuyên là phòng khách, phòng ngủ và phòng phòng bếp. Theo quy tắc 15 phút, bạn phải dành ra 5 phút để dọn dẹp mỗi căn phòng này và phải thực hiện mỗi ngày.Phương pháp này giúp tiết kiệm thời gian dọn nhà, nhưng không vì thế mà kém phần sạch sẽ. Khi dọn dẹp mỗi ngày, căn nhà bạn sẽ tươm tất hơn và bạn cũng không phải tốn quá nhiều công sức, dễ sinh ra chán nản.",
-          "imageUrl": "https://cdn.tgdd.vn/Files/2020/01/10/1230884/7-cach-don-dep-nha-cua-thong-minh-sach-se-nhu-nguo.jpg"
-        },
-        {
-          "subTitle": "Dọn sạch khu vực bếp sau mỗi ngày",
-          "content": "Thói quen dọn sạch khu vực bếp sau mỗi ngày sẽ giúp căn bếp luôn sạch sẽ, tạo không gian dễ chịu khi nấu ăn vào các bữa sau. Bên cạnh đó, sau khi nấu ăn xong, bạn hãy dành thời gian để lau chùi và làm sạch không gian bếp chứ không nên để đến cuối ngày.Hơn nữa, sau khi nấu xong, bạn cũng nên rửa sạch đồ dùng sơ chế trước khi ngồi vào bàn thưởng thức bữa ăn. Điều này giúp không gian nhẹ nhàng, sạch sẽ và tạo cảm giác ngon miệng hơn.",
-          "imageUrl": "https://cdn.tgdd.vn/Files/2020/01/10/1230884/7-cach-don-dep-nha-cua-thong-minh-sach-se-nhu-nguo-2.jpg"
-        }
-      ],
-      "liked": false
+      "name": "Dọn dẹp nhà cửa theo giờ"
     },
     {
       "id": 2,
-      "userId": 2,
-      "createdAt": "01/04/2023",
-      "categoryId": 1,
-      "likes": 0,
-      "title": "10 mẹo vặt giúp bạn dọn dẹp nhà cửa",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_cKYW6TaG0Xt3tHc4vA3JkIncGPagz2GH6A&usqp=CAU",
-      "contents": [
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": "g"
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        }
-      ],
-      "liked": false
+      "userId": 3,
+      "name": "Nấu cơm gia đình theo bữa"
     },
     {
       "id": 3,
       "userId": 2,
-      "createdAt": "01/04/2023",
-      "categoryId": 2,
-      "likes": 0,
-      "title": "Món ngon đơn giản dễ làm",
-      "image": "https://cdn.beptruong.edu.vn/wp-content/uploads/2021/03/mon-an-co-nhieu-duong-chat.jpg",
-      "contents": [
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": "g"
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        }
-      ],
-      "liked": false
+      "name": "Đi chợ hộ"
     },
     {
       "id": 4,
-      "userId": 2,
-      "createdAt": "01/04/2023",
-      "categoryId": 2,
-      "likes": 0,
-      "title": "12 mẹo vặt nấu ăn đơn giản",
-      "image": "https://www.nhahangquangon.com/wp-content/uploads/2013/11/nguyen-lieu-cho-viec-nau-an.jpg",
-      "contents": [
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": "g"
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        }
-      ],
-      "liked": false
+      "userId": 3,
+      "name": "Tổng vệ sinh nhà ở"
+    }
+  ],
+  "statuses": [
+    {
+      "id": 1,
+      "name": "Chưa xử lý"
+    },
+    {
+      "id": 2,
+      "name": "Đã xác nhận"
+    },
+    {
+      "id": 3,
+      "name": "Đang trên đường đến"
+    },
+    {
+      "id": 4,
+      "name": "Đang tiến hành công việc"
     },
     {
       "id": 5,
-      "userId": 3,
-      "createdAt": "01/04/2023",
-      "categoryId": 3,
-      "likes": 0,
-      "title": "Mẹo lựa chọn thực phẩm tươi ngon khi đi chợ",
-      "image": "https://afamilycdn.com/150157425591193600/2020/7/15/5-cach-chon-rau-cu-qua-tuoi-ngon-3-1594788386816674000747.jpg",
-      "contents": [
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": "g"
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        }
-      ],
-      "liked": false
+      "name": "Xong công việc"
     },
     {
       "id": 6,
-      "userId": 3,
-      "createdAt": "01/04/2023",
-      "categoryId": 3,
-      "likes": 0,
-      "title": "Xử lý hải sản trước khi bảo quản và cách bảo quản hải sản tươi sống",
-      "image": "https://cdn.tgdd.vn/2021/10/CookDish/xu-ly-hai-san-truoc-khi-bao-quan-va-cach-bao-quan-hai-san-avt-1200x676.jpg",
-      "contents": [
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": "g"
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        }
-      ],
-      "liked": false
+      "name": "Đã thanh toán"
     },
     {
       "id": 7,
-      "userId": 3,
-      "createdAt": "01/04/2023",
-      "categoryId": 4,
-      "likes": 0,
-      "title": "Cách khử mùi hôi giày trong 3 nốt nhạc",
-      "image": "https://activatedcarbon.vn/pic/news/images/637090902477003651.jpg",
-      "contents": [
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": "g"
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        }
-      ],
-      "liked": false
+      "name": "Đã hoàn thành"
     },
     {
       "id": 8,
+      "name": "Đã hủy"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "customerId": 1,
+      "workerId": 2,
+      "serviceId": 1,
+      "date": "01-02-2023",
+      "statusId": 7,
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "customerId": 1,
+      "workerId": 3,
+      "serviceId": 2,
+      "date": "01-03-2023",
+      "statusId": 1,
+      "rating": 0
+    },
+    {
+      "id": 3,
+      "customerId": 1,
+      "workerId": 2,
+      "serviceId": 3,
+      "date": "01-04-2023",
+      "statusId": 1,
+      "rating": 0
+    },
+    {
+      "id": 4,
+      "customerId": 1,
+      "workerId": 3,
+      "serviceId": 4,
+      "date": "05-04-2023",
+      "statusId": 7,
+      "rating": 0
+    }
+  ],
+  "likes": [
+    {
+      "userId": 1,
+      "articleId": 2,
+      "id": 1
+    },
+    {
       "userId": 3,
-      "createdAt": "01/04/2023",
+      "articleId": 2,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "articleId": 3,
+      "id": 3
+    }
+  ],
+  "articles": [
+    {
+      "userId": 2,
+      "createdAt": "15-4-2023",
+      "categoryId": 1,
+      "title": "Cách dọn dẹp nhà cửa nhanh và hiệu quả",
+      "image": "https://dichvuvesinhnha.net/wp-content/uploads/2021/12/lau-don-nha-cua-dung-cach-2.jpg",
+      "content": "<h2>Phân loại nhóm đồ đạc cần dọn dẹp</h2><p>Để việc dọn dẹp trở nên dễ dàng và nhanh chóng, việc đầu tiên bạn cần làm là phân loại các nhóm đồ đạc cần dọn dẹp như: quần áo, đồ làm bếp, sách vở, đồ chơi... Điều này vô cùng cần thiết, đặc biệt là đối với những gia đình có nhiều thành viên. Việc dọn dẹp hết tất cả quần áo trong các phòng rồi tiếp đến dọn các nhóm đồ đạc khác giúp bạn hoàn thành công việc nhanh hơn.Sau dọn dẹp, bạn hãy sắp xếp chúng vào những thùng hay hộp caton cho gọn. Việc tiếp theo bạn chỉ cần cất giữ chúng gọn gàng là xong.</p><p class=\"ql-align-center\"><img src=\"https://cdn.tgdd.vn/Files/2020/01/10/1230884/7-cach-don-dep-nha-cua-thong-minh-sach-se-nhu-nguoi-nhat-ban-nen-biet-.jpg\"></p><h2>Có thứ tự ưu tiên dọn dẹp ngay từ đầu</h2><p>Thứ tự dọn dẹp là một trong những lưu ý mà người Nhật thường hay nhắc đến. Việc sắp xếp thứ tự dọn dẹp không chỉ khiến việc dọn dẹp trở nên logic hơn mà còn giúp bạn không phải hoang mang không biết trước một đống công việc. Hơn hết việc sắp xếp thứ tự ưu tiên còn giúp bạn hoàn thành được các công việc tốt nhất mà không bỏ sót việc nào. Thứ tự dọn dẹp ưu tiên theo người Nhật đó là bắt đầu từ đồ mặc (quần áo, túi, giày dép, mũ); tiếp đến là giá sách, các loại giấy tờ; sau đó là các thứ đồ nhỏ khác theo sự lựa chọn của từng người và cuối cùng là sắp xếp đồ lưu niệm.</p><p class=\"ql-align-center\"><img src=\"https://cdn.tgdd.vn/Files/2020/01/10/1230884/7-cach-don-dep-nha-cua-thong-minh-sach-se-nhu-nguoi-nhat-ban-nen-biet--1.jpg\"></p><h2>Cố định vị trí đồ vật</h2><p>Người Nhật quan niệm rằng, việc sắp xếp cố định vị trí cho đồ vật sẽ giúp cho việc dọn dẹp trở nên nhanh chóng hơn. Điều này cũng dễ hiểu, bởi khi cố định vị trí cho đồ vật thì khi cần tìm hay cần đặt món đồ đó, bạn có thể biết ngay vị trí cần tìm hay đặt mà không cần phải mất công suy nghĩ vị trí của chúng.</p><p class=\"ql-align-center\"><img src=\"https://cdn.tgdd.vn/Files/2020/01/10/1230884/7-cach-don-dep-nha-cua-thong-minh-sach-se-nhu-nguoi-nhat-ban-nen-biet--2.jpg\"></p><h2>Sắp xếp đồ đạc theo chiều dọc</h2><p>Với những món đồ cùng loại, nên xếp theo nguyên tắc chiều dọc. Theo tác giả Mari Kondo đề cập, việc làm này giúp bạn luôn quản lý được những thứ mình đang có, tăng tuổi thọ đồ dùng và dễ dàng vệ sinh hơn.</p><p class=\"ql-align-center\"><img src=\"https://cdn.tgdd.vn/Files/2020/01/10/1230884/7-cach-don-dep-nha-cua-thong-minh-sach-se-nhu-nguoi-nhat-ban-nen-biet--5.jpg\"></p><h2>Dọn nhà với quy tắc 15 phút</h2><p>Có 3 căn phòng bạn thường lui tới thường xuyên là phòng khách, phòng ngủ và phòng phòng bếp. Theo quy tắc 15 phút, bạn phải dành ra 5 phút để dọn dẹp mỗi căn phòng này và phải thực hiện mỗi ngày.Phương pháp này giúp tiết kiệm thời gian dọn nhà, nhưng không vì thế mà kém phần sạch sẽ. Khi dọn dẹp mỗi ngày, căn nhà bạn sẽ tươm tất hơn và bạn cũng không phải tốn quá nhiều công sức, dễ sinh ra chán nản.</p><p class=\"ql-align-center\"><img src=\"https://cdn.tgdd.vn/Files/2020/01/10/1230884/7-cach-don-dep-nha-cua-thong-minh-sach-se-nhu-nguo.jpg\"></p><h2>Dọn sạch khu vực bếp sau mỗi ngày</h2><p>Thói quen dọn sạch khu vực bếp sau mỗi ngày sẽ giúp căn bếp luôn sạch sẽ, tạo không gian dễ chịu khi nấu ăn vào các bữa sau. Bên cạnh đó, sau khi nấu ăn xong, bạn hãy dành thời gian để lau chùi và làm sạch không gian bếp chứ không nên để đến cuối ngày.Hơn nữa, sau khi nấu xong, bạn cũng nên rửa sạch đồ dùng sơ chế trước khi ngồi vào bàn thưởng thức bữa ăn. Điều này giúp không gian nhẹ nhàng, sạch sẽ và tạo cảm giác ngon miệng hơn.</p><p class=\"ql-align-center\"><img src=\"https://cdn.tgdd.vn/Files/2020/01/10/1230884/7-cach-don-dep-nha-cua-thong-minh-sach-se-nhu-nguo-2.jpg\"></p>",
+      "id": 2
+    },
+    {
+      "userId": 3,
+      "createdAt": "16-4-2023",
+      "categoryId": 1,
+      "title": "Cách dọn dẹp nhà cửa khoa học",
+      "image": "https://static-images.vnncdn.net/files/publish/2022/7/21/7-meo-huu-ich-cho-viec-don-dep-nha-cua-aad6ca343f8a4e269c16665c96f0d2b2.jpg",
+      "content": "<h2>Quy tắc chung cho cách dọn dẹp nhà cửa đúng</h2><p>Quy tắc vệ sinh nhà cửa chung áp dụng cho việc dọn dẹp bất cứ phòng ốc nào đó là:</p><ul><li>Phải dọn từ trên xuống dưới, từ cao xuống thấp, từ trong ra ngoài.</li><li>Dọn nơi sạch trước, nơi bẩn sau. Do đó phải dọn dẹp phòng ngủ trước, phòng khách, nhà bếp, nhà tắm và toilet.</li><li>Dọn phòng nào xong, dứt điểm phòng đó.</li><li>Không được bỏ qua các ngóc ngách, dưới gầm đồ đạc</li></ul><p>Với các quy tắc chung này sẽ giúp người giúp việc sẽ làm sạch từng phòng một các nhanh nhất, hiệu quả nhất.</p><p><img src=\"https://giupviectheogio.vn/wp-content/uploads/2020/09/don-dep-nha-cua-tktmaids-117.jpg\"></p><p>Quy tắc chung về cách vệ sinh nhà cửa bạn đã nắm được. Giờ chúng ta triển khai cho từng phòng nào.</p><h2>Cách dọn dẹp phòng ngủ</h2><p>Các bước dọn dẹp phòng ngủ bao gồm:</p><ul><li>Dọn dẹp giường ngủ. Thay ga, drap giường, gối nếu cần. Sắp xếp lại giường ngủ.</li><li>Lau chùi tủ, kệ, chùi bụi khung hình, chụp đèn.</li><li>Hút bụi thảm, gầm giường.</li><li>Lau chùi sàn nhà nên chú ý đến các khe và góc nhà.</li></ul><p><img src=\"https://giupviectheogio.vn/wp-content/uploads/2020/09/don-de-phong-ngu-tktmaids-116.jpg\"></p><h2>Cách dọn dẹp phòng khách</h2><p>Các bước dọn dẹp phòng khách bao gồm:</p><ul><li>Nếu trần nhà dơ nên bắt tay vào việc làm sạch trần nhà trước.</li><li>Nếu cửa sổ, và rèm cửa dơ nên làm sạch chúng tiếp theo.</li><li>Tiếp đến là làm sạch tranh ảnh, đèn, đồ trang trí treo tường.</li><li>Lau kính cửa, lau chùi cửa ra vào, cửa sổ (lau kỹ bụi ở khung cửa, các giá sách…)</li></ul><p><img src=\"https://giupviectheogio.vn/wp-content/uploads/2020/09/lam-sach-phong-khach-tktmaids-119.jpg\"></p><h2>Cách dọn dẹp nhà bếp</h2><p>Các bước dọn dẹp nhà bếp như sau:</p><ul><li>Lau chùi đèn bếp, tủ hút, kệ treo tường.</li><li>Lau bàn ăn.</li><li>Lau kỹ mặt bếp vừa sạch bếp bằng các hóa chất chuyên dụng dành cho bếp.</li><li>Chùi rửa bên ngoài (lò hấp, tủ lạnh, lò nướng). Lau chùi bên trong và bên ngoài lò vi sóng.</li><li>Lau chùi tủ đựng chén bát, sắp xếp lại tủ chén.</li><li>Lau chùi chén dĩa, xoong nồi và các vật dụng làm bếp khác.</li><li>Sắp xếp lại thức ăn trữ trong tủ lạnh.</li></ul><p><img src=\"https://giupviectheogio.vn/wp-content/uploads/2020/09/ve-sinh-tu-bep-tktmaids-121.jpg\"></p><h2>Cách dọn dẹp nhà tắm, toilet</h2><p>Các bước dọn dẹp nhà tắm, toilet</p><ul><li>Làm sạch trần phòng tắm, sử dụng chổi lau để quét qua một lượt trần tránh nấm mốc gây hại cho sức khỏe.</li><li>Lau rửa các dụng cụ treo tường như kệ đựng xà phòng, mỹ phẩm (dời đồ vật và trả về chỗ cũ sau khi làm sạch).</li><li>Làm sạch gương. Vì gương thường là vật đầu tiên những vị khách của bạn nhìn vào khi bước chân vào phòng tắm, vì vậy hãy chú ý kĩ đến việc làm sạch nó. Sử dụng loại nước làm sạch những đồ bằng kính để làm cho chiếc gương phòng tắm sạch và sáng hơn.</li><li>Lau chùi tẩy uế bồn rửa mặt, bồn tắm, vòi sen.</li><li>Tẩy uế bên trong và bên ngoài bồn cầu bao gồm bên dưới và phía sau bồn cầu.</li><li>Lau sàn nhà tắm</li></ul><p><img src=\"https://giupviectheogio.vn/wp-content/uploads/2020/09/lam-sach-toilet-tktmaids-120.jpg\"></p><p><br></p>",
+      "id": 3
+    },
+    {
+      "userId": 3,
+      "createdAt": "16-4-2023",
+      "categoryId": 3,
+      "title": "Mẹo chọn trái cây tươi cực dễ khi đi chợ",
+      "image": "https://minhnguyenhn.com/wp-content/uploads/2018/06/cach-chon-trai-cay-nhap-khau-tuoi-sach-5.jpg",
+      "content": "<h2 class=\"ql-align-justify\"><strong>Cách chọn dưa hấu tươi ngon</strong></h2><p>Chọn dưa hấu không có gì là quá khó, nhưng cũng không quá dễ dàng để ta chọn được những quả dưa ngon, an toàn. Để nhận biết biết đâu là quả dưa hấu ngon, thì bạn đưa quả dưa lên gần tai sao cho cách xa tai khoảng chừng 5cm, rồi vỗ nhẹ vào. Nếu có tiếng “bộp bộp” vang lên thì đó là dưa hấu ngon.</p><p><img src=\"https://lh5.googleusercontent.com/-UH0uas30_r2JOPhtaN_-lqMtUDu_jNroK_94R2JmZiCotSTaNKw8clgVyxKSHiSKHP0GnbVG1v_2TCg_FqtqtucU6YCvo-OgNwGTfI_v9X75NyU8tbw_8j0j7FkibzgJkD49VAxvt2bsZpFmSbyRYr5maUNfgOUHG0nVVunygXh5VH-n_-l2KeRymehMw\"></p><p>Mặt khác, quả dưa hấu ngon thương có lớp vỏ trơn bóng, đường nét hoa văn rõ ràng, sắc nét, dưới đáy hơi vàng, Nếu ngược lại, dưa có dấu hiệu chính nhanh, có lớp nhung bên ngoài, vỏ sẫm màu, hoa văn mờ nhạt thì là dưa đã tiêm nhiều hóa chất.</p><h2 class=\"ql-align-justify\"><strong>Cách chọn mãng cầu</strong></h2><p>Khi chọn mãng cầu xiêm, các chị em cần nên chọn những quả có da còn xanh tươi, vàng nhạt, láng bóng. Hơn nữa, những mãng cầu xiêm có mắt gai to, mềm và nhất là khoảng cách giữa các gai càng rộng thì quả mãng cầu càng ngon.Bạn tuyệt đối không được chọn những quả mãng cầu có da xỉn màu, không láng bóng vì đó là những quả không ngon.</p><p><img src=\"https://lh5.googleusercontent.com/Dx7ZQ9Sf6AQYZkWYgAySh34cRVYIsnWlaREIV4ZCK9waySVnd-pT4weuq69UALEJY-3gr0JDcszZ8LwXVE1r5Irc6PqznG9qMgc74SWYDo1xWK4IzYLDZpyidpDxGjEH2R2nbChDuiEK3En9g7Ad1PWnftmHfUHLN0Iap3JI4BcmakT4bLX4-Qrb4LpJKw\"></p><h2 class=\"ql-align-justify\"><strong>Cách chọn đu đủ</strong></h2><p class=\"ql-align-justify\">Để chọn một quả đu đủ ngon, bạn nên chọn những quả có núm đã chuyển sang màu vàng, có hình dạng dài, cầm nặng tay và cuốn còn nhựa dính. Vì đây là những dấu hiệu của một quả đu đủ ngon, ít hạt, thịt dày, chín tự nhiên.Hoặc những quả chín tự nhiên đôi lúc cũng có những dấu hiệu như sau: không đều, thường có màu trắng bên trên đầu, thỉnh thoảng có một vài chấm đen, vết lõm nhỏ trên bề mặt</p><p><img src=\"https://lh6.googleusercontent.com/NkxhIq-5yFLbulqUImQWn2xJgqqK3lMlmQl3gig_aOSiRKdPwws1WdXg0_tQtUH98wrZmaFO9EmCIMas-sfjjdqiDWveB7qrZM3lB2OM0jiOz7eOEjFtfAS-8_0hAVv9oFX1Qsn5eZdYOh3sFcx3ia2XO1AQ-C1SwtptxmSbSKU_umfbnhnKYbx4qZ9J_g\"></p><h2 class=\"ql-align-justify\"><strong>Cách chọn quả dứa</strong></h2><p><img src=\"https://lh5.googleusercontent.com/z1I5l-t-OHwJo3EQaVA9kNJo4ImTNSyFqCUr_1dpAa-FDUZEXCMpBtFL48cSRPbUZRvFolEp1xMV6h8RWmFvc-IrW0nUz40HyJofCiROTEHMoVsSngr1uuu7U6otksZyJgZPWwBHtVTBB2H_hAUSlcwACwo9LZxovfgnDhwD5maiqeW61kexXNmzJCaUQQ\"></p>",
+      "id": 4
+    },
+    {
+      "userId": 3,
+      "createdAt": "16-4-2023",
+      "categoryId": 3,
+      "title": "Mẹo lựa chọn thực phẩm tươi ngon ở chợ",
+      "image": "https://cdn.tgdd.vn/2021/01/CookProduct/2-1200x676-6.jpg",
+      "content": "<h2><strong>Cách lựa chọn thịt bò, thịt lợn tươi ngon</strong></h2><p class=\"ql-align-justify\">Thịt có màu đỏ tươi, hơi dính tay nhẹ vì dẻo và ấm, thịt đàn hồi tốt, không lõm khi nhấn ngón tay vào, quan sát miếng thịt sẽ ướt là tươi. Thịt lợn có hạt hạt trắng là lợn bị sán gạo.</p><p class=\"ql-align-justify\"><strong>Không nên:</strong></p><p class=\"ql-align-justify\">Chọn thịt có màu nhợt nhạt hoặc có vết bầm đỏ.</p><p class=\"ql-align-justify\">Chọn thịt heo có mỡ vàng, trong thớ thịt có những đốm trắng như hạt gạo hoặc chọn thịt da có vết bầm là thịt có sán.</p><p class=\"ql-align-justify\"><img src=\"https://ttol.vietnamnetjsc.vn/images/2022/11/26/15/48/cach-lua-chon-thit-bo-thit-lon-tuoi-ngon-8346-1669441320506-16694413213431534043092.jpg\"></p><h2 class=\"ql-align-justify\">Cách chọn thịt gà</h2><p class=\"ql-align-justify\">Chọn thịt gà mà da có màu vàng sậm là do bôi phẩm màu, hay da có vết bầm, tụ máu.</p><p class=\"ql-align-justify\">Mua gà còn sống, nếu không biết cách làm thịt có thể nhờ người bán hàng làm ngay tại chỗ. Chọn những con gà khỏe mạnh, mào đỏ tương hồng, hai cánh ép sát mình, lông trơn mượt, mắt có thần.</p><p class=\"ql-align-justify\">Với gà làm sẵn chọn mua những con da còn trơn nhờn, mào đỏ tươi hoặc vàng đều (đóng màng khô là thịt lâu). Không nên chọn gà có bộ da bầm thâm vì đó là gà chết hoặc mới chết</p><h2 class=\"ql-align-justify\">Cách chọn hải sản tươi sống</h2><p class=\"ql-align-justify\">Những con mực tươi, bằng mắt thường rất dễ phát hiện. Đó là những con mực có mình gần như trong suốt, râu bám chặt mình.</p><p class=\"ql-align-justify\">Cá bơi khoẻ, mắt tinh nhanh, mang hồng, vảy cứng.</p><p class=\"ql-align-justify\">Cua có yếm cứng là cua chắc thịt.</p><p class=\"ql-align-justify\">Ốc, ngao hé miệng hoặc quan sát màu sắc tươi mới bóng.</p><p class=\"ql-align-justify\"><img src=\"https://ttol.vietnamnetjsc.vn/images/2022/11/26/15/48/cach-chon-tom-tuoi-ngon-2-1024x576-1918-1669441323060-16694413232111617461085.jpg\"></p><p class=\"ql-align-justify\">Cách chọn tôm ngon: Với những con tôm hỏng, thân chúng thường uốn cong thành hình tròn chứ không có dáng thẳng hoặc hơi cong cong như tôm sống.</p><p class=\"ql-align-justify\">Không nên mua những con tôm đã bị chảy nhớt.</p><p class=\"ql-align-justify\">Không nên chọn mua những con tôm có chân đã bị chuyển sang màu đen, đây chính là dấu hiệu tôm bị ươn.</p><p class=\"ql-align-justify\">Khi cầm phần đầu và phần đuôi tôm để kéo thẳng tôm ra. Khi bạn nhìn thấy các khớp nối giữa các đốt tôm khít thì là tôm mới, còn nếu các khớp này rộng ra tức là tôm đã bị để đông lạnh quá lâu.</p><h2 class=\"ql-align-justify\"><strong>Lựa chọn rau củ, quả</strong></h2><p class=\"ql-align-justify\">Mua loại có màu xanh hoặc màu đặc trưng mà không bị biến dạng. Có mùi đặc trưng, không hắc và không có mùi lạ. Nên mua rau, củ đúng mùa.</p><p class=\"ql-align-justify\">Rau: Chọn mua những mớ rau tươi, không bị trầy xước, không bị héo úa, giập nát. Cánh lá cứng cáp, không mềm, thân cây rau không có nhớt.</p><p><img src=\"https://ttol.vietnamnetjsc.vn/images/2022/11/26/15/48/7-cach-chon-rau-cu-qua-tuoi-ngon-cuc-don-gian-201911262113591999-5277-1669441324881-16694413250401905570006.jpg\"></p>",
+      "id": 5
+    },
+    {
+      "userId": 3,
+      "createdAt": "16-4-2023",
+      "categoryId": 2,
+      "title": "5 mẹo vặt giúp bạn nấu ăn ngon hơn",
+      "image": "https://cdn.tgdd.vn/2021/06/CookProduct/BeFunky-collage(1)-1200x676-1.jpg",
+      "content": "<h2>Mẹo nhỏ nêm muối đúng cách</h2><p><img src=\"https://hanhtinhxanh.com.vn/pub/media/watermark/4/blog/bat-mi-5-meo-vat-giup-ban-nau-an-ngon-hon-1.jpg\"></p><p>Khi bạn nấu ăn, không phải món ăn nào các bạn cũng cho trực tiếp muối vào ngay khi nấu. Đối với các món ăn rau củ bạn nên cho muối vào sớm để ngấm đều, đối với các món rau luộc bạn chỉ nên cho muối vào trước khi bắc nồi xuống tránh việc cho muối vào sớm rau sẽ bị đỏ hoặc vàng, làm mất màu xanh đẹp mắt của rau.</p><h2>Cách nêm bột ngọt (mì chính)</h2><p>Vì bột ngọt không tốt cho sức khỏe nên bạn chỉ cho một ít vào thức ăn để tăng hương vị. Cùng với đó, bạn cũng không nên cho bột ngọt trực tiếp vào món ăn mà hòa tan vào một ít nước canh rồi mới trộn chung vào món ăn</p><p><img src=\"https://hanhtinhxanh.com.vn/pub/media/watermark/4/blog/bat-mi-5-meo-vat-giup-ban-nau-an-ngon-hon-2.jpg\"></p><h2>Dùng thêm nước khi làm món xào</h2><p><img src=\"https://hanhtinhxanh.com.vn/pub/media/watermark/4/blog/bat-mi-5-meo-vat-giup-ban-nau-an-ngon-hon-4.jpg\"></p><p>Khi xào rau, món ăn thường bị khô đồng thời hàm lượng nước dinh dưỡng có trong rau hay bị bay hơi mất. Vì thế để giữ lại độ dinh dưỡng cho rau, khi chảo nóng, bạn nên cho thêm 2-3 thìa canh nước để hơi nước nóng có thể làm rau chín tới mà vẫn đảm bảo độ ngọt có trong rau củ.</p><h2>Cách chiên rán không bị bắn dầu mỡ</h2><p><img src=\"https://hanhtinhxanh.com.vn/pub/media/watermark/4/blog/bat-mi-5-meo-vat-giup-ban-nau-an-ngon-hon-5.jpg\"></p><p>Muốn món chiên rán không bị bắn mỡ trước khi cho thịt cá vào chiên, các bạn nên rắc thêm một chút bột mì vào chảo trước. Nếu muốn những món chiên rán có màu vàng đẹp mắt – đặc biệt là món nem khi đun nóng dầu bạn vắt vào chảo dầu một vài giọt nước chanh, đảm bảo món ăn của bạn sẽ có màu sắc vô cùng bắt mắt đấy!</p>",
+      "id": 6
+    },
+    {
+      "userId": 2,
+      "createdAt": "16-4-2023",
+      "categoryId": 2,
+      "title": "Mẹo rã đông an toàn, thực phẩm tươi ngon, không bị mất dinh dưỡng",
+      "image": "https://ttol.vietnamnetjsc.vn/images/2022/01/16/07/26/ra-dong-1.jpg",
+      "content": "<h2><strong>Rã đông trong ngăn mát tủ lạnh</strong></h2><p>Cách rã đông thịt an toàn nhất là bỏ nguyên túi thịt, cá từ ngăn đông xuống ngăn mát tủ lạnh. Tuy nhiên phương pháp này có nhược điểm là mất nhiều thời gian. Thông thường mọi người để thực phẩm cần rã đông trong ngăn mát tủ lạnh&nbsp;qua đêm để có thể sử dụng vào ngày hôm sau.</p><p>Đối với thực phẩm đông lạnh có khối lượng lớn như gà nguyên con, thịt tảng, việc rã đông sẽ lâu hơn nên bạn cần tính toán thời gian để bỏ thực phẩm xuống ngăn mát cho hợp lý.</p><p>Ngoài ra để nước từ thực phẩm đông lạnh không chảy làm bẩn tủ, bạn nên để thực phẩm vào hộp hoặc bát đựng.</p><h2><strong>Rã đông thực phẩm bằng nước lạnh</strong></h2><p><img src=\"https://vnn-imgs-f.vgcloud.vn/2021/09/13/12/meo-ra-dong-thuc-pham-an-toan-it-nguoi-biet-1.jpg\"></p><p>Rã đông thực phẩm bằng ngăn mát tủ lạnh là cách làm an toàn, đảm bảo dinh dưỡng nhất nhưng nếu không có nhiều thời gian,&nbsp;bạn có thể chọn cách rã đông bằng nước lạnh.</p><p>Với cách này, bạn cần bọc kín thực phẩm trong túi nhựa và ngâm trong nước lạnh. Lưu ý không để túi bị rách, không khí và nước ngấm vào sẽ khiến thực phẩm bị chảy nước, vi khuẩn dễ xâm nhập hơn. Sau khi rã đông thực phẩm, nên chế biến ngay.</p><h2><strong>Rã đông bằng lò vi sóng</strong></h2><p>Lò vi sóng giúp rã đông thực phẩm rất nhanh, chỉ trong vài phút, nhưng cần nhớ là phải chế biến ngay. Nhiều người có thói quen sau khi rã đông thực phẩm bằng lò vi sóng, không dùng hết lại cất ngăn đá. Lúc này vi khuẩn sẽ sinh sôi nhanh gấp nhiều lần và thực phẩm chế biến sau đó sẽ mất đi hương vị tươi ngon.</p><p>Một điểm cần chú ý khi rã đông bằng lò vi sóng chính là thời gian và nhiệt độ. Nếu để nhiệt độ quá thấp thì thực phẩm sẽ rã đông chậm, tạo điều kiện cho vi khuẩn sinh sôi. Còn nếu để nhiệt độ quá cao thì bên lớp ngoài thực phẩm sẽ bị chín trong khi phần bên trong vẫn bị đông đá. Vì thế điều quan trọng là phải căn đúng thời gian và khối lượng thực phẩm để chọn nhiệt độ phù hợp.</p>",
+      "id": 7
+    },
+    {
+      "userId": 2,
+      "createdAt": "16-4-2023",
       "categoryId": 4,
-      "likes": 0,
-      "title": "9 cách tẩy vết mốc quần áo đơn giản, hiệu quả",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI-rYAzEaYZTbyL3A9W2zlD4qbKvx8UyEll-ivibOlKItlmWjAshxufee83tZ80r64Blk&usqp=CAU",
-      "contents": [
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": "g"
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        },
-        {
-          "subTitle": "",
-          "content": "",
-          "imageUrl": ""
-        }
-      ],
-      "liked": false
+      "title": "3 Mẹo giặt ủi giúp áo quần bền lâu như mới",
+      "image": "https://www.cleanipedia.com/images/5iwkm8ckyw6v/011rSLKeHEneGpP992LQvX/54c881c1a88b961c64154d26b47bd0b8/NGQ3Y2I0NGIwMDAwMDU3OC01ODcwNzQ3LWltYWdlLWEtMTE1Mjk2NTEzODg2NzktMTU3NTkwNDQwMTU0NzgyMjI4NDgwMS1jcm9wLTE1NzU5MDQ0MDUzOTA3NDAxOTk0ODQuanBn/640w-427h/m%E1%BA%B9o-gi%E1%BA%B7t-%C4%91%E1%BB%93-nh%C6%B0-m%E1%BB%99t-chuy%C3%AAn-gia.jpg",
+      "content": "<h2><strong>Sử dụng túi giặt khi giặt máy</strong></h2><p>Nhằm bảo vệ những bộ cánh mỏng manh của mình trước sức quay của lồng giặt, cách tốt nhất là bạn nên sử dụng&nbsp;túi giặt đồ cho máy giặt đúng cách. Túi giặt đồ có cấu tạo mặt lưới thông minh, giúp bảo vệ quần áo mà vẫn có khả năng làm sạch bởi tác động của máy giặt. Ngoài ra, túi giặt còn giảm ma sát trên các loại vải trong lồng giặt, đảm bảo áo quần bền đẹp như mới.</p><p>Tuy nhiên, bạn không nên dồn những loại quần áo được làm từ chất liệu khác nhau vào chung một túi giặt. Tốt hơn hết, chị em nội trợ chỉ nên dùng túi giặt cho các trang phục mỏng, dễ bị biến dạng, đồ co giãn như cotton, len sợi, mút, đồ lót, phụ kiện trẻ em vì những chất liệu này dễ bị hư hại, kéo dãn trong quá trình làm sạch và vắt sấy ở tốc độ cao.</p><p><img src=\"https://www.cleanipedia.com/images/5iwkm8ckyw6v/1SJF6fwy7AW1jsBVm6XQTi/e13bc89806f1aed53dc94c342644e4da/T0lQLmpwZWc/720w-720h/cho-qu%E1%BA%A7n-%C3%A1o-v%C3%A0o-t%C3%BAi-gi%E1%BA%B7t-%C4%91%E1%BB%93---gi%E1%BA%B7t-qu%E1%BA%A7n-%C3%A1o-b%E1%BA%B1ng-m%C3%A1y-gi%E1%BA%B7t.jpg\"></p><h2><strong>Dùng nước xả vải để chăm sóc quần áo bền lâu như mới</strong></h2><p>quên sử dụng nước xả ngay cả khi đã sử dụng nước giặt tốt nhất bạn nhé!</p><p>Một giải pháp giúp áo quần bền lâu như mới chính là sử dụng Nước xả vải Comfort Chăm Sóc Chuyên Sâu. Nước xả vải mang đến 6 công dụng giúp giữ phom dáng, giảm nhăn, thơm bền lâu, giảm xù lông, bền màu, mềm vải và bảo vệ trang phục khỏi hư tổn ngay cả khi giặt bằng máy giặt và các sản phẩm nước giặt thông thường. Hơn thế nữa, sản phẩm sở hữu công thức chuyên sâu Ultra Care, có công dụng chống phai màu, chống sờn vải và mang lại hiệu quả rõ rệt chỉ sau vài lần giặt.</p><p>Một đặc tính ưu việt khác chính là công thức chăm sóc chuyên sâu với chất làm mềm để bảo vệ màu sắc của từng sợi vải, thành phần mới giúp tạo ra một lớp màng vô hình bao bọc từng sợi vải để tránh hư hại khi giặt, đồng thời khóa các hạt mùi hương, giúp quần áo lưu hương lâu hơn. Chưa kể, nước xả vải Chăm Sóc Chuyên Sâu từ thương hiệu Comfort uy tín còn có khả năng loại bỏ mùi hôi và lưu lại hương thơm tươi mát, để quần áo luôn thơm tho như mới.</p><p><img src=\"https://www.cleanipedia.com/images/5iwkm8ckyw6v/2zk244f4Pzf3nsuCb6sep5/9f404b4b147c54b0968ac9e779806f83/Mi5qcGc/720w-405h/comfort-c%C3%B4ng-th%E1%BB%A9c-d%C6%B0%E1%BB%A1ng-v%E1%BA%A3i-chuy%C3%AAn-s%C3%A2u-m%E1%BB%9Bi.jpg\"></p><h2><strong>Hạn chế dùng máy sấy</strong></h2><p>Ngoại trừ những trường hợp đặc biệt cần thiết như thời tiết ẩm ướt và mưa liên tục trong nhiều ngày, bạn không nên thường xuyên sử dụng máy sấy quần áo để làm khô trang phục. Bởi nhiệt độ cao sẽ ảnh hưởng trực tiếp đến chất vải và màu sắc của quần áo. Vì vậy, bạn hãy phơi khô bằng ánh nắng mặt trời để quần áo khô tự nhiên nhất có thể.</p><p><img src=\"https://www.cleanipedia.com/images/5iwkm8ckyw6v/2yspxJG9XCi1dT7NPF7GzH/24baac3114a8abc95f166c7289066855/Z2FzLXZzLWVsZWN0cmljLWRyeWVycy1zZWN0aW9uLTUuanBn/720w-451h/m%C3%A1y-s%E1%BA%A5y-qu%E1%BA%A7n-%C3%A1o.jpg\"></p>",
+      "id": 8
+    },
+    {
+      "userId": 2,
+      "createdAt": "16-4-2023",
+      "categoryId": 4,
+      "title": "Mẹo giặt đồ nhanh, sạch như giặt ủi của khách sạn",
+      "image": "https://www.btaskee.com/wp-content/uploads/2019/06/dich-vu-giat-ui-btaskee-1.png",
+      "content": "<h2 class=\"ql-align-justify\"><strong>Không nhồi quá nhiều đồ trong 1 lần giặt</strong></h2><p>Nguyên tắc đầu tiên mà&nbsp;dịch vụ giặt ủi trong khách sạn áp dụng chính là không cho quá nhiều đồ vào máy giặt khi giặt. Vì máy giặt chỉ giặt sạch và tốt nhất hoạt động 80% công suất nên nếu bỏ quá nhiều đồ máy giặt sẽ không đủ không gian để quay, quần áo cũng vì vậy mà không nhồi và cọ xát để sạch được.</p><p><img src=\"https://blog.btaskee.com/wp-content/uploads/2018/03/Laundry-5-e1436960224316-1024x656.jpg\"></p><p>Tuy nhiên, nếu cho quá ít quần áo trong 1 lần giặt quần áo sẽ bị nhàu, nát và dễ bị rách, đứt vì bị quay quá nhiều lần. Ngoài ra, do cọ xát quá nhiều, 1 số loại vải sẽ bị sờn, xù.</p><h2 class=\"ql-align-justify\"><strong>Sử dụng nhiệt độ nước đúng cách</strong></h2><p><img src=\"https://blog.btaskee.com/wp-content/uploads/2018/03/d45dirimageswus.jpg\"></p><p>Nhiệt độ nước rất được chú trọng trong quá trình giặt bởi nó là 1 trong những yếu tố ảnh hưởng rất lớn đến độ sạch của quần áo sau khi giặt.&nbsp;Dịch vụ giặt ủi&nbsp;ở khách sạn rất chú trọng tới nhiệt độ nước khi giặt các loại đồ và thường phân loại quần áo trước khi giặt để giặt với nhiệt độ thích hợp nhất.</p><h2 class=\"ql-align-justify\"><strong>Nước xả vải</strong></h2><p><img src=\"https://blog.btaskee.com/wp-content/uploads/2018/03/bfc2d2d334b9a75012667027d4c920f54b6c14ea.jpg\"></p><p>Các khách sạn thường hạn chế sử dụng nhiều nước xả làm mềm vải vì nếu sử dụng nhiều có thể khiến chăn, ga và đặc biệt là khăn tắm nhanh xơ và cứng. Để khắc phục tình trạng này, các khách sạn thường không dùng nước xả làm mềm vải mà sử dụng giấm trong bước giặt cuối cùng. Giấm không chỉ giúp làm mềm vải mà còn có tác dụng cực tốt trong việc diệt khuẩn cũng như loại bỏ vết bẩn.</p><h2 class=\"ql-align-justify\"><strong>Sấy khô</strong></h2><p>Sấy khô là cách làm khô quần áo mà dịch vụ giặt ủi ở khách sạn hay áp dụng. Sấy vừa giúp quần áo nhanh khô, diệt khuẩn tốt vừa giúp tiết kiệm tốt đa thời gian trong trường hợp khách cần quần áo gấp. Khi sấy, nhân viên khách sạn thường đặt một quả bóng tennis bên trong để làm cho khăn tắm, ga giường,… mềm mại hơn.</p>",
+      "id": 9
     }
   ]
 }
