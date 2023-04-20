@@ -48,8 +48,12 @@
       "age": "20",
       "gender": "Nữ",
       "address": "Buôn Ma Thuột, Đăk Lăk",
-      "avatar": "https://images.unsplash.com/photo-1440589473619-3cde28941638?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGJlYXV0aWZ1bCUyMGdpcmxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-      "accountId": 1
+      "avatar": "https://www.btaskee.com/wp-content/uploads/2020/10/cong-tac-vien-.jpg",
+      "accountId": 1,
+      "title": "Nhân viên 1",
+      "category": "nhân viên",
+      "price": "7",
+      "description": "Là dịch vụ đầu tiên bTaskee triển khai. Giờ đây công việc dọn dẹp không còn là nỗi bận tâm, bạn sẽ có nhiều thời gian nghỉ ngơi và tận hưởng cuộc sống."
     },
     {
       "id": 2,
@@ -59,8 +63,12 @@
       "age": "20",
       "gender": "Nam",
       "address": "Quy Nhơn, Bình Định",
-      "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
-      "accountId": 2
+      "avatar": "https://www.btaskee.com/wp-content/uploads/2020/11/chon-dich-vu-deep-cleaning.png",
+      "accountId": 2,
+      "title": "Nhân viên 2",
+      "category": "nhân viên",
+      "price": "6",
+      "description": "Là dịch vụ đầu tiên bTaskee triển khai. Giờ đây công việc dọn dẹp không còn là nỗi bận tâm, bạn sẽ có nhiều thời gian nghỉ ngơi và tận hưởng cuộc sống."
     },
     {
       "id": 3,
@@ -70,8 +78,12 @@
       "age": "20",
       "gender": "Nam",
       "address": "Quy Nhơn, Bình Định",
-      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-      "accountId": 3
+      "avatar": "https://www.btaskee.com/wp-content/uploads/2020/11/chon-dich-vu-ac-cleaning.png",
+      "accountId": 3,
+      "title": "Nhân viên 3",
+      "category": "nhân viên",
+      "price": "5",
+      "description": "Là dịch vụ đầu tiên bTaskee triển khai. Giờ đây công việc dọn dẹp không còn là nỗi bận tâm, bạn sẽ có nhiều thời gian nghỉ ngơi và tận hưởng cuộc sống."
     }
   ],
   "accounts": [
@@ -184,7 +196,7 @@
       "workerId": 3,
       "serviceId": 2,
       "date": "01-03-2023",
-      "statusId": 1,
+      "statusId": 2,
       "rating": 0
     },
     {
@@ -203,7 +215,7 @@
       "serviceId": 4,
       "date": "05-04-2023",
       "statusId": 7,
-      "rating": 0
+      "rating": 1
     }
   ],
   "likes": [
