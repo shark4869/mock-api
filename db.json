@@ -35,42 +35,44 @@
       "name": "Cộng tác viên"
     }
   ],
-  "users": [{
-        "id": 1,
-        "firstName": "Vô",
-        "lastName": "Diện",
-        "phone": "0855387362",
-        "birthday": "10-08-2001",
-        "gender": "Nữ",
-        "email": "vodien123@gmail.com",
-        "address": "Buôn Ma Thuột, Đăk Lăk",
-        "avatar": "https://images.unsplash.com/photo-1440589473619-3cde28941638?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGJlYXV0aWZ1bCUyMGdpcmxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-        "accountId": 1
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Vô",
+      "lastName": "Diện",
+      "phone": "0855387362",
+      "birthday": "10-08-2001",
+      "gender": "Nữ",
+      "email": "vodien123@gmail.com",
+      "address": "Buôn Ma Thuột, Đăk Lăk",
+      "avatar": "https://images.unsplash.com/photo-1440589473619-3cde28941638?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGJlYXV0aWZ1bCUyMGdpcmxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "accountId": 1
     },
     {
-        "id": 2,
-        "firstName": "Hồ",
-        "lastName": "Phương",
-        "phone": "0775536285",
-        "birthday": "07-09-2001",
-        "gender": "Nam",
-        "address": "Quy Nhơn, Bình Định",
-        "email": "hophuong123@gmail.com",
-        "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
-        "accountId": 2
+      "id": 2,
+      "firstName": "Hồ",
+      "lastName": "Phương",
+      "phone": "0775536285",
+      "birthday": "07-09-2001",
+      "gender": "Nam",
+      "address": "Quy Nhơn, Bình Định",
+      "email": "hophuong123@gmail.com",
+      "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+      "accountId": 2
     },
     {
-        "id": 3,
-        "firstName": "Hoàng",
-        "lastName": "Tùng",
-        "phone": "0874653872",
-        "age": "12-05-2001",
-        "gender": "Nam",
-        "email": "hoangtung123@gmail.com",
-        "address": "Quy Nhơn, Bình Định",
-        "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-        "accountId": 3
-    }],
+      "id": 3,
+      "firstName": "Hoàng",
+      "lastName": "Ngọc Tùng",
+      "phone": "0874653872",
+      "birthday": "12-05-2001",
+      "gender": "Nam",
+      "email": "hoangtung123@gmail.com",
+      "address": "Quy Nhơn, Bình Định",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "accountId": 3
+    }
+  ],
   "accounts": [
     {
       "username": "vodien",
@@ -113,42 +115,47 @@
     {
       "id": 1,
       "userId": 2,
+      "categoryId": 1,
       "name": "Dọn dẹp nhà cửa theo giờ",
       "workingTime": "2 giờ",
-      "cost": "100.000 đồng",
+      "cost": "120.000 đồng",
       "task": "Quét bụi và lau tất cả các bề mặt có thể tiếp cận, quét và lau sàn, dọn bếp, rửa chén bát, làm sạch bồn rửa, làm sạch toilet, đổ rác."
     },
     {
       "id": 2,
       "userId": 3,
-      "name": "Nấu cơm gia đình theo bữa",
+      "categoryId": 2,
+      "name": "Nấu cơm gia đình theo buổi",
       "workingTime": "2 giờ",
-      "cost": "100.000 đồng",
-      "task": "Nấu các món ăn gia đình theo yêu cầu, dọn dẹp bếp."
+      "cost": "120.000 đồng",
+      "task": "Nấu các món ăn gia đình theo yêu cầu, dọn dẹp và vệ sinh bếp."
     },
     {
       "id": 3,
       "userId": 2,
+      "categoryId": 3,
       "name": "Đi chợ hộ",
       "workingTime": "1.5 giờ",
       "cost": "50.000 đồng",
-      "task": "Mua thực phẩm theo yêu cầu của khách hàng và giao tận tay khách hàng"
+      "task": "Mua thực phẩm theo yêu cầu và giao tận tay khách hàng trong thời gian ngắn nhất."
     },
     {
       "id": 4,
       "userId": 3,
+      "categoryId": 1,
       "name": "Tổng vệ sinh nhà ở",
       "workingTime": "4 giờ",
       "cost": "200.000 đồng",
       "task": "Quét mạng nhện, lau sạch quạt trần, phủi bụi trên rèm cửa, kẽ cửa sổ, làm sạch bụi trên tất cả bề mặt đồ nội thất, đồ trang trí, lau gương soi, cửa kính, dọn sạch rác, quét và lau sàn, dọn sạch bậc cầu thang, dọn dẹp bếp, don dẹp phòng ngủ, làm sạch nhà tắm"
     },
     {
-      "id": 5,
       "userId": 3,
-      "name": "dọn dẹp",
-      "workingTime": "4 giờ",
-      "cost": "200.000 đồng",
-      "task": "Làm sạch bụi trên tất cả bề mặt đồ nội thất, đồ trang trí, lau gương soi, cửa kính, dọn sạch rác, quét và lau sàn"
+      "name": "Dọn vườn",
+      "workingTime": "2 giờ",
+      "cost": "100.000 đồng",
+      "task": "Quét sân, dọn cỏ, tưới cây",
+      "categoryId": 1,
+      "id": 6
     }
   ],
   "statuses": [
@@ -192,8 +199,9 @@
       "workerId": 2,
       "serviceId": 1,
       "date": "01-02-2023",
-      "statusId": 7,
-      "rating": 5
+      "statusId": 1,
+      "address": "12 Lê Duẩn, Buôn Ma Thuột, Đăk Lăk",
+      "rating": 0
     },
     {
       "id": 2,
@@ -201,6 +209,7 @@
       "workerId": 3,
       "serviceId": 2,
       "date": "01-03-2023",
+      "address": "12 Lê Duẩn, Buôn Ma Thuột, Đăk Lăk",
       "statusId": 8,
       "rating": 0
     },
@@ -210,7 +219,8 @@
       "workerId": 2,
       "serviceId": 3,
       "date": "01-04-2023",
-      "statusId": 2,
+      "address": "12 Lê Duẩn, Buôn Ma Thuột, Đăk Lăk",
+      "statusId": 7,
       "rating": 0
     },
     {
@@ -219,6 +229,7 @@
       "workerId": 3,
       "serviceId": 4,
       "date": "05-04-2023",
+      "address": "12 Lê Duẩn, Buôn Ma Thuột, Đăk Lăk",
       "statusId": 1,
       "rating": 0
     }
@@ -230,14 +241,14 @@
       "id": 1
     },
     {
-      "userId": 3,
-      "articleId": 2,
-      "id": 2
-    },
-    {
       "userId": 1,
       "articleId": 3,
       "id": 3
+    },
+    {
+      "userId": 1,
+      "articleId": 6,
+      "id": 4
     }
   ],
   "articles": [
