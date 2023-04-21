@@ -115,10 +115,10 @@
     {
       "id": 1,
       "userId": 2,
-      "categoryId": 1,
       "name": "Dọn dẹp nhà cửa theo giờ",
       "workingTime": "2 giờ",
-      "cost": "120.000 đồng",
+      "cost": "100.000 đồng",
+      "categoryId": 1,
       "task": "Quét bụi và lau tất cả các bề mặt có thể tiếp cận, quét và lau sàn, dọn bếp, rửa chén bát, làm sạch bồn rửa, làm sạch toilet, đổ rác."
     },
     {
@@ -149,6 +149,7 @@
       "task": "Quét mạng nhện, lau sạch quạt trần, phủi bụi trên rèm cửa, kẽ cửa sổ, làm sạch bụi trên tất cả bề mặt đồ nội thất, đồ trang trí, lau gương soi, cửa kính, dọn sạch rác, quét và lau sàn, dọn sạch bậc cầu thang, dọn dẹp bếp, don dẹp phòng ngủ, làm sạch nhà tắm"
     },
     {
+
       "userId": 3,
       "name": "Dọn vườn",
       "workingTime": "2 giờ",
@@ -157,6 +158,8 @@
       "categoryId": 1,
       "id": 6
     }
+    
+   
   ],
   "statuses": [
     {
