@@ -42,17 +42,21 @@ server.delete('/api/likes', (req, res) => {
   res.sendStatus(204);
 });
 
-// To handle POST, PUT and PATCH you need to use a body-parser
-// You can use the one used by JSON Server
-// server.use(jsonServer.bodyParser);
+server.delete('/api/services', (req, res) => {
+  const { id, userId } = req.query;
+  const db = router.db;
+  const services = db.get('services');
 
-// server.use((req, res, next) => {
-//   if (req.method === 'POST') {
-//     req.body.createdAt = Date.now(),
-//     req.body.updateAt = Date.now()
-//   }
-//   next()
-// })
+  const service = services.find({ id: parseInt(id), userId: parseInt(userId) }).value();
+  if (!service) {
+    return res.status(404).send('Like not found');
+  }
+
+  services.remove(service).write();
+
+  res.sendStatus(204);
+});
+
 
 server.use(express.json());
 // Use default router

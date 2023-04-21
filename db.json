@@ -63,9 +63,9 @@
     {
       "id": 3,
       "firstName": "Hoàng",
-      "lastName": "Tùng",
+      "lastName": "Ngọc Tùng",
       "phone": "0874653872",
-      "age": "12-05-2001",
+      "birthday": "12-05-2001",
       "gender": "Nam",
       "email": "hoangtung123@gmail.com",
       "address": "Quy Nhơn, Bình Định",
@@ -124,93 +124,42 @@
     {
       "id": 2,
       "userId": 3,
-      "name": "Nấu cơm gia đình theo bữa",
+      "categoryId": 2,
+      "name": "Nấu cơm gia đình theo buổi",
       "workingTime": "2 giờ",
-      "cost": "100.000 đồng",
-      "categoryId": 1,
-      "task": "Nấu các món ăn gia đình theo yêu cầu, dọn dẹp bếp."
+      "cost": "120.000 đồng",
+      "task": "Nấu các món ăn gia đình theo yêu cầu, dọn dẹp và vệ sinh bếp."
     },
     {
       "id": 3,
       "userId": 2,
+      "categoryId": 3,
       "name": "Đi chợ hộ",
       "workingTime": "1.5 giờ",
       "cost": "50.000 đồng",
-      "categoryId": 1,
-      "task": "Mua thực phẩm theo yêu cầu của khách hàng và giao tận tay khách hàng"
+      "task": "Mua thực phẩm theo yêu cầu và giao tận tay khách hàng trong thời gian ngắn nhất."
     },
     {
       "id": 4,
       "userId": 3,
+      "categoryId": 1,
       "name": "Tổng vệ sinh nhà ở",
       "workingTime": "4 giờ",
       "cost": "200.000 đồng",
-      "categoryId": 1,
       "task": "Quét mạng nhện, lau sạch quạt trần, phủi bụi trên rèm cửa, kẽ cửa sổ, làm sạch bụi trên tất cả bề mặt đồ nội thất, đồ trang trí, lau gương soi, cửa kính, dọn sạch rác, quét và lau sàn, dọn sạch bậc cầu thang, dọn dẹp bếp, don dẹp phòng ngủ, làm sạch nhà tắm"
     },
     {
-      "id": 5,
-      "userId": 1,
-      "name": "dọn dẹp",
-      "workingTime": "4 giờ",
-      "cost": "200.000 đồng",
+
+      "userId": 3,
+      "name": "Dọn vườn",
+      "workingTime": "2 giờ",
+      "cost": "100.000 đồng",
+      "task": "Quét sân, dọn cỏ, tưới cây",
       "categoryId": 1,
-      "task": "Làm sạch bụi trên tất cả bề mặt đồ nội thất, đồ trang trí, lau gương soi, cửa kính, dọn sạch rác, quét và lau sàn"
-    },
-    {
-      "id": 6,
-      "userId": 3,
-      "name": "dọn dẹp",
-      "workingTime": "4 giờ",
-      "cost": "200.000 đồng",
-      "categoryId": 2,
-      "task": "Làm sạch bụi trên tất cả bề mặt đồ nội thất, đồ trang trí, lau gương soi, cửa kính, dọn sạch rác, quét và lau sàn"
-    },
-    {
-      "id": 7,
-      "userId": 2,
-      "name": "dọn dẹp",
-      "workingTime": "4 giờ",
-      "cost": "200.000 đồng",
-      "categoryId": 2,
-      "task": "Làm sạch bụi trên tất cả bề mặt đồ nội thất, đồ trang trí, lau gương soi, cửa kính, dọn sạch rác, quét và lau sàn"
-    },
-    {
-      "id": 8,
-      "userId": 1,
-      "name": "dọn dẹp",
-      "workingTime": "4 giờ",
-      "cost": "200.000 đồng",
-      "categoryId": 3,
-      "task": "Làm sạch bụi trên tất cả bề mặt đồ nội thất, đồ trang trí, lau gương soi, cửa kính, dọn sạch rác, quét và lau sàn"
-    },
-    {
-      "id": 9,
-      "userId": 3,
-      "name": "dọn dẹp",
-      "workingTime": "4 giờ",
-      "cost": "200.000 đồng",
-      "categoryId": 4,
-      "task": "Làm sạch bụi trên tất cả bề mặt đồ nội thất, đồ trang trí, lau gương soi, cửa kính, dọn sạch rác, quét và lau sàn"
-    },
-    {
-      "id": 10,
-      "userId": 2,
-      "name": "dọn dẹp",
-      "workingTime": "4 giờ",
-      "cost": "200.000 đồng",
-      "categoryId": 4,
-      "task": "Làm sạch bụi trên tất cả bề mặt đồ nội thất, đồ trang trí, lau gương soi, cửa kính, dọn sạch rác, quét và lau sàn"
-    },
-    {
-      "id": 11,
-      "userId": 1,
-      "name": "dọn dẹp",
-      "workingTime": "4 giờ",
-      "cost": "200.000 đồng",
-      "categoryId": 4,
-      "task": "Làm sạch bụi trên tất cả bề mặt đồ nội thất, đồ trang trí, lau gương soi, cửa kính, dọn sạch rác, quét và lau sàn"
+      "id": 6
     }
+    
+   
   ],
   "statuses": [
     {
@@ -253,8 +202,9 @@
       "workerId": 2,
       "serviceId": 1,
       "date": "01-02-2023",
-      "statusId": 7,
-      "rating": 5
+      "statusId": 1,
+      "address": "12 Lê Duẩn, Buôn Ma Thuột, Đăk Lăk",
+      "rating": 0
     },
     {
       "id": 2,
@@ -262,6 +212,7 @@
       "workerId": 3,
       "serviceId": 2,
       "date": "01-03-2023",
+      "address": "12 Lê Duẩn, Buôn Ma Thuột, Đăk Lăk",
       "statusId": 8,
       "rating": 0
     },
@@ -271,7 +222,8 @@
       "workerId": 2,
       "serviceId": 3,
       "date": "01-04-2023",
-      "statusId": 2,
+      "address": "12 Lê Duẩn, Buôn Ma Thuột, Đăk Lăk",
+      "statusId": 7,
       "rating": 0
     },
     {
@@ -280,6 +232,7 @@
       "workerId": 3,
       "serviceId": 4,
       "date": "05-04-2023",
+      "address": "12 Lê Duẩn, Buôn Ma Thuột, Đăk Lăk",
       "statusId": 1,
       "rating": 0
     }
@@ -294,6 +247,11 @@
       "userId": 1,
       "articleId": 3,
       "id": 3
+    },
+    {
+      "userId": 1,
+      "articleId": 6,
+      "id": 4
     }
   ],
   "articles": [
