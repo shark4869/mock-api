@@ -84,9 +84,10 @@
     {
       "id": 3,
       "firstName": "Hoàng",
-      "lastName": "Tùng",
+      "lastName": "Ngọc Tùng",
       "phone": "0874653872",
       "birthday": "2023-04-20",
+
       "gender": "Nam",
       "email": "hoangtung123@gmail.com",
       "address": "Quy Nhơn, Bình Định",
@@ -146,21 +147,25 @@
     },
     {
       "id": 2,
+
       "userId": 2,
       "name": "Dọn dẹp nhà cửa theo giờ",
       "workingTime": "2 giờ",
       "cost": "100.000 đồng",
       "categoryId": 2,
       "task": "Quét bụi và lau tất cả các bề mặt có thể tiếp cận, quét và lau sàn, dọn bếp, rửa chén bát, làm sạch bồn rửa, làm sạch toilet, đổ rác."
+
     },
     {
       "id": 3,
       "userId": 2,
+
       "name": "Dọn dẹp nhà cửa theo giờ",
       "workingTime": "2 giờ",
       "cost": "100.000 đồng",
       "categoryId": 3,
       "task": "Quét bụi và lau tất cả các bề mặt có thể tiếp cận, quét và lau sàn, dọn bếp, rửa chén bát, làm sạch bồn rửa, làm sạch toilet, đổ rác."
+
     },
     {
       "id": 4,
@@ -198,6 +203,9 @@
       "categoryId": 1,
       "task": "Làm sạch bụi trên tất cả bề mặt đồ nội thất, đồ trang trí, lau gương soi, cửa kính, dọn sạch rác, quét và lau sàn"
     }
+    
+   
+   
   ],
   "statuses": [
     {
@@ -243,6 +251,7 @@
       "statusId": 7,
       "rating": 5,
       "address": "27 Nguyễn Nhạc"
+
     },
     {
       "id": 2,
@@ -263,6 +272,7 @@
       "statusId": 5,
       "rating": 0,
       "address": "27 Phạm Hồng Thái"
+
     },
     {
       "id": 4,
@@ -273,48 +283,27 @@
       "statusId": 2,
       "rating": 0,
       "address": "27 Ngô Quyền"
+    }
+],
+"likes": [
+    {
+      "userId": 1,
+      "articleId": 2,
+      "id": 1
     },
     {
-      "customerId": 1,
-      "workerId": 2,
-      "serviceId": 1,
-      "date": "2023-04-23",
-      "statusId": 8,
-      "rating": 5,
-      "address": "50 Nguyễn Văn",
-      "id": 5
+      "userId": 1,
+      "articleId": 3,
+      "id": 3
     },
     {
-      "customerId": 1,
-      "workerId": 2,
-      "serviceId": 1,
-      "date": "2023-04-23",
-      "statusId": 8,
-      "rating": 5,
-      "address": "27 nguyễn lữ",
-      "id": 6
-    },
-    {
-      "customerId": 1,
-      "workerId": 2,
-      "serviceId": 1,
-      "date": "2023-04-23",
-      "statusId": 8,
-      "rating": 5,
-      "address": "",
-      "id": 7
-    },
-    {
-      "customerId": 1,
-      "workerId": 3,
-      "serviceId": 4,
-      "date": "2023-04-23",
-      "statusId": 8,
-      "rating": 5,
-      "address": "",
-      "id": 8
+      "userId": 1,
+      "articleId": 6,
+      "id": 4
     }
   ],
+  
+  
   "articles": [
     {
       "userId": 2,
