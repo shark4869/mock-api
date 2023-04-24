@@ -1,2 +1,0 @@
- workerId : id services
- customerId: id cua dang nhap
