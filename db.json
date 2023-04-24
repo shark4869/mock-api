@@ -35,58 +35,81 @@
       "name": "Cộng tác viên"
     }
   ],
+  "comments": [
+    {
+      "id": 1,
+      "comment": "anh này làm tốt lắm",
+      "serviceId": 1,
+      "userId": 1,
+      "customerId": 1
+    },
+    {
+      "id": 2,
+      "comment": "tạm được",
+      "serviceId": 1,
+      "userId": 1,
+      "customerId": 1
+    },
+    {
+      "id": 3,
+      "comment": "quá tuyệt vời",
+      "serviceId": 1,
+      "userId": 1,
+      "customerId": 1
+    }
+  ],
   "users": [
     {
       "id": 1,
       "firstName": "Vô",
       "lastName": "Diện",
       "phone": "0855387362",
-      "birthday": "10-08-2001",
+      "birthday": "2023-04-20",
       "gender": "Nữ",
       "email": "vodien123@gmail.com",
       "address": "Buôn Ma Thuột, Đăk Lăk",
-      "avatar": "https://images.unsplash.com/photo-1440589473619-3cde28941638?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGJlYXV0aWZ1bCUyMGdpcmxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-      "accountId": 1
+      "avatar": "https://www.btaskee.com/wp-content/uploads/2020/11/chon-dich-vu-ac-cleaning.png"
     },
     {
       "id": 2,
       "firstName": "Hồ",
       "lastName": "Phương",
       "phone": "0775536285",
-      "birthday": "07-09-2001",
+      "birthday": "2023-04-20",
       "gender": "Nam",
       "address": "Quy Nhơn, Bình Định",
       "email": "hophuong123@gmail.com",
-      "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
-      "accountId": 2
+      "avatar": "https://www.btaskee.com/wp-content/uploads/2020/11/chon-dich-vu-grocery.png"
     },
     {
       "id": 3,
       "firstName": "Hoàng",
       "lastName": "Tùng",
       "phone": "0874653872",
-      "age": "12-05-2001",
+      "birthday": "2023-04-20",
       "gender": "Nam",
       "email": "hoangtung123@gmail.com",
       "address": "Quy Nhơn, Bình Định",
-      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-      "accountId": 3
+      "avatar": "https://www.btaskee.com/wp-content/uploads/2020/10/cong-tac-vien-.jpg"
     }
   ],
   "accounts": [
     {
+      "id": 1,
       "username": "vodien",
       "password": "123456",
       "roleId": 2,
       "userId": 1
     },
     {
+      "id": 2,
       "username": "hophuong",
       "password": "123456",
       "roleId": 3,
       "userId": 2
     },
     {
+      "id": 3,
       "username": "hoangtung",
       "password": "123456",
       "roleId": 3,
@@ -123,6 +146,24 @@
     },
     {
       "id": 2,
+      "userId": 2,
+      "name": "Dọn dẹp nhà cửa theo giờ",
+      "workingTime": "2 giờ",
+      "cost": "100.000 đồng",
+      "categoryId": 2,
+      "task": "Quét bụi và lau tất cả các bề mặt có thể tiếp cận, quét và lau sàn, dọn bếp, rửa chén bát, làm sạch bồn rửa, làm sạch toilet, đổ rác."
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "name": "Dọn dẹp nhà cửa theo giờ",
+      "workingTime": "2 giờ",
+      "cost": "100.000 đồng",
+      "categoryId": 3,
+      "task": "Quét bụi và lau tất cả các bề mặt có thể tiếp cận, quét và lau sàn, dọn bếp, rửa chén bát, làm sạch bồn rửa, làm sạch toilet, đổ rác."
+    },
+    {
+      "id": 4,
       "userId": 3,
       "name": "Nấu cơm gia đình theo bữa",
       "workingTime": "2 giờ",
@@ -131,84 +172,30 @@
       "task": "Nấu các món ăn gia đình theo yêu cầu, dọn dẹp bếp."
     },
     {
-      "id": 3,
+      "id": 5,
       "userId": 2,
       "name": "Đi chợ hộ",
       "workingTime": "1.5 giờ",
       "cost": "50.000 đồng",
-      "categoryId": 1,
+      "categoryId": 4,
       "task": "Mua thực phẩm theo yêu cầu của khách hàng và giao tận tay khách hàng"
-    },
-    {
-      "id": 4,
-      "userId": 3,
-      "name": "Tổng vệ sinh nhà ở",
-      "workingTime": "4 giờ",
-      "cost": "200.000 đồng",
-      "categoryId": 1,
-      "task": "Quét mạng nhện, lau sạch quạt trần, phủi bụi trên rèm cửa, kẽ cửa sổ, làm sạch bụi trên tất cả bề mặt đồ nội thất, đồ trang trí, lau gương soi, cửa kính, dọn sạch rác, quét và lau sàn, dọn sạch bậc cầu thang, dọn dẹp bếp, don dẹp phòng ngủ, làm sạch nhà tắm"
-    },
-    {
-      "id": 5,
-      "userId": 1,
-      "name": "dọn dẹp",
-      "workingTime": "4 giờ",
-      "cost": "200.000 đồng",
-      "categoryId": 1,
-      "task": "Làm sạch bụi trên tất cả bề mặt đồ nội thất, đồ trang trí, lau gương soi, cửa kính, dọn sạch rác, quét và lau sàn"
     },
     {
       "id": 6,
       "userId": 3,
-      "name": "dọn dẹp",
-      "workingTime": "4 giờ",
-      "cost": "200.000 đồng",
-      "categoryId": 2,
-      "task": "Làm sạch bụi trên tất cả bề mặt đồ nội thất, đồ trang trí, lau gương soi, cửa kính, dọn sạch rác, quét và lau sàn"
-    },
-    {
-      "id": 7,
-      "userId": 2,
-      "name": "dọn dẹp",
-      "workingTime": "4 giờ",
-      "cost": "200.000 đồng",
-      "categoryId": 2,
-      "task": "Làm sạch bụi trên tất cả bề mặt đồ nội thất, đồ trang trí, lau gương soi, cửa kính, dọn sạch rác, quét và lau sàn"
-    },
-    {
-      "id": 8,
-      "userId": 1,
-      "name": "dọn dẹp",
+      "name": "Tổng vệ sinh nhà ở",
       "workingTime": "4 giờ",
       "cost": "200.000 đồng",
       "categoryId": 3,
-      "task": "Làm sạch bụi trên tất cả bề mặt đồ nội thất, đồ trang trí, lau gương soi, cửa kính, dọn sạch rác, quét và lau sàn"
+      "task": "Quét mạng nhện, lau sạch quạt trần, phủi bụi trên rèm cửa, kẽ cửa sổ, làm sạch bụi trên tất cả bề mặt đồ nội thất, đồ trang trí, lau gương soi, cửa kính, dọn sạch rác, quét và lau sàn, dọn sạch bậc cầu thang, dọn dẹp bếp, don dẹp phòng ngủ, làm sạch nhà tắm"
     },
     {
-      "id": 9,
+      "id": 7,
       "userId": 3,
       "name": "dọn dẹp",
       "workingTime": "4 giờ",
       "cost": "200.000 đồng",
-      "categoryId": 4,
-      "task": "Làm sạch bụi trên tất cả bề mặt đồ nội thất, đồ trang trí, lau gương soi, cửa kính, dọn sạch rác, quét và lau sàn"
-    },
-    {
-      "id": 10,
-      "userId": 2,
-      "name": "dọn dẹp",
-      "workingTime": "4 giờ",
-      "cost": "200.000 đồng",
-      "categoryId": 4,
-      "task": "Làm sạch bụi trên tất cả bề mặt đồ nội thất, đồ trang trí, lau gương soi, cửa kính, dọn sạch rác, quét và lau sàn"
-    },
-    {
-      "id": 11,
-      "userId": 1,
-      "name": "dọn dẹp",
-      "workingTime": "4 giờ",
-      "cost": "200.000 đồng",
-      "categoryId": 4,
+      "categoryId": 1,
       "task": "Làm sạch bụi trên tất cả bề mặt đồ nội thất, đồ trang trí, lau gương soi, cửa kính, dọn sạch rác, quét và lau sàn"
     }
   ],
@@ -252,54 +239,86 @@
       "customerId": 1,
       "workerId": 2,
       "serviceId": 1,
-      "date": "01-02-2023",
+      "date": "2023-04-20",
       "statusId": 7,
-      "rating": 5
+      "rating": 5,
+      "address": "27 Nguyễn Nhạc"
     },
     {
       "id": 2,
       "customerId": 1,
       "workerId": 3,
       "serviceId": 2,
-      "date": "01-03-2023",
+      "date": "2023-04-20",
       "statusId": 8,
-      "rating": 0
+      "rating": 0,
+      "address": "27 Ngô Mây"
     },
     {
       "id": 3,
       "customerId": 1,
       "workerId": 2,
       "serviceId": 3,
-      "date": "01-04-2023",
-      "statusId": 2,
-      "rating": 0
+      "date": "2023-04-20",
+      "statusId": 5,
+      "rating": 0,
+      "address": "27 Phạm Hồng Thái"
     },
     {
       "id": 4,
       "customerId": 1,
       "workerId": 3,
       "serviceId": 4,
-      "date": "05-04-2023",
-      "statusId": 1,
-      "rating": 0
-    }
-  ],
-  "likes": [
-    {
-      "userId": 1,
-      "articleId": 2,
-      "id": 1
+      "date": "2023-04-20",
+      "statusId": 2,
+      "rating": 0,
+      "address": "27 Ngô Quyền"
     },
     {
-      "userId": 1,
-      "articleId": 3,
-      "id": 3
+      "customerId": 1,
+      "workerId": 2,
+      "serviceId": 1,
+      "date": "2023-04-23",
+      "statusId": 8,
+      "rating": 5,
+      "address": "50 Nguyễn Văn",
+      "id": 5
+    },
+    {
+      "customerId": 1,
+      "workerId": 2,
+      "serviceId": 1,
+      "date": "2023-04-23",
+      "statusId": 8,
+      "rating": 5,
+      "address": "27 nguyễn lữ",
+      "id": 6
+    },
+    {
+      "customerId": 1,
+      "workerId": 2,
+      "serviceId": 1,
+      "date": "2023-04-23",
+      "statusId": 8,
+      "rating": 5,
+      "address": "",
+      "id": 7
+    },
+    {
+      "customerId": 1,
+      "workerId": 3,
+      "serviceId": 4,
+      "date": "2023-04-23",
+      "statusId": 8,
+      "rating": 5,
+      "address": "",
+      "id": 8
     }
   ],
   "articles": [
     {
       "userId": 2,
-      "createdAt": "15-4-2023",
+      "createdAt": "2023-04-20",
       "categoryId": 1,
       "title": "Cách dọn dẹp nhà cửa nhanh và hiệu quả",
       "image": "https://dichvuvesinhnha.net/wp-content/uploads/2021/12/lau-don-nha-cua-dung-cach-2.jpg",
@@ -308,7 +327,7 @@
     },
     {
       "userId": 3,
-      "createdAt": "16-4-2023",
+      "createdAt": "2023-04-20",
       "categoryId": 1,
       "title": "Cách dọn dẹp nhà cửa khoa học",
       "image": "https://static-images.vnncdn.net/files/publish/2022/7/21/7-meo-huu-ich-cho-viec-don-dep-nha-cua-aad6ca343f8a4e269c16665c96f0d2b2.jpg",
@@ -317,7 +336,7 @@
     },
     {
       "userId": 3,
-      "createdAt": "16-4-2023",
+      "createdAt": "2023-04-20",
       "categoryId": 3,
       "title": "Mẹo chọn trái cây tươi cực dễ khi đi chợ",
       "image": "https://minhnguyenhn.com/wp-content/uploads/2018/06/cach-chon-trai-cay-nhap-khau-tuoi-sach-5.jpg",
@@ -326,7 +345,7 @@
     },
     {
       "userId": 3,
-      "createdAt": "16-4-2023",
+      "createdAt": "2023-04-20",
       "categoryId": 3,
       "title": "Mẹo lựa chọn thực phẩm tươi ngon ở chợ",
       "image": "https://cdn.tgdd.vn/2021/01/CookProduct/2-1200x676-6.jpg",
@@ -335,7 +354,7 @@
     },
     {
       "userId": 3,
-      "createdAt": "16-4-2023",
+      "createdAt": "2023-04-20",
       "categoryId": 2,
       "title": "5 mẹo vặt giúp bạn nấu ăn ngon hơn",
       "image": "https://cdn.tgdd.vn/2021/06/CookProduct/BeFunky-collage(1)-1200x676-1.jpg",
@@ -344,7 +363,7 @@
     },
     {
       "userId": 2,
-      "createdAt": "16-4-2023",
+      "createdAt": "2023-04-20",
       "categoryId": 2,
       "title": "Mẹo rã đông an toàn, thực phẩm tươi ngon, không bị mất dinh dưỡng",
       "image": "https://ttol.vietnamnetjsc.vn/images/2022/01/16/07/26/ra-dong-1.jpg",
@@ -353,7 +372,7 @@
     },
     {
       "userId": 2,
-      "createdAt": "16-4-2023",
+      "createdAt": "2023-04-20",
       "categoryId": 4,
       "title": "3 Mẹo giặt ủi giúp áo quần bền lâu như mới",
       "image": "https://www.cleanipedia.com/images/5iwkm8ckyw6v/011rSLKeHEneGpP992LQvX/54c881c1a88b961c64154d26b47bd0b8/NGQ3Y2I0NGIwMDAwMDU3OC01ODcwNzQ3LWltYWdlLWEtMTE1Mjk2NTEzODg2NzktMTU3NTkwNDQwMTU0NzgyMjI4NDgwMS1jcm9wLTE1NzU5MDQ0MDUzOTA3NDAxOTk0ODQuanBn/640w-427h/m%E1%BA%B9o-gi%E1%BA%B7t-%C4%91%E1%BB%93-nh%C6%B0-m%E1%BB%99t-chuy%C3%AAn-gia.jpg",
@@ -362,7 +381,7 @@
     },
     {
       "userId": 2,
-      "createdAt": "16-4-2023",
+      "createdAt": "2023-04-20",
       "categoryId": 4,
       "title": "Mẹo giặt đồ nhanh, sạch như giặt ủi của khách sạn",
       "image": "https://www.btaskee.com/wp-content/uploads/2019/06/dich-vu-giat-ui-btaskee-1.png",
